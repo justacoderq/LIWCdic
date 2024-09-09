@@ -1,0 +1,6631 @@
+%
+1	Function
+2	Pronoun
+3	Ppron
+4	I
+5	We
+6	You
+7	SheHe
+8	They
+9	Ipron
+10	Article
+11	Prep
+12	Auxverb
+13	Adverb
+14	Conj
+15	Negate
+20	Verb
+21	Adj
+22	Compare
+23	Interrog
+24	Number
+25	Quant
+30	Affect
+31	Posemo
+32	Negemo
+33	Anx
+34	Anger
+35	Sad
+40	Social
+41	Family
+42	Friend
+43	Female
+44	Male
+50	CogProc
+51	Insight
+52	Cause
+53	Discrep
+54	Tentat
+55	Certain
+56	Differ
+60	Percept
+61	See
+62	Hear
+63	Feel
+70	Bio
+71	Body
+72	Health
+73	Sexual
+74	Ingest
+80	Drives
+81	Affiliation
+82	Achieve
+83	Power
+84	Reward
+85	Risk
+90	FocusPast
+91	FocusPresent
+92	FocusFuture
+100	Relativ
+101	Motion
+102	Space
+103	Time
+110	Work
+111	Leisure
+112	Home
+113	Money
+114	Relig
+115	Death
+120	Informal
+121	Swear
+122	Netspeak
+123	Assent
+124	Nonflu
+125	Filler
+%
+a	1	10
+about	1	11	13
+above	1	11	80	83	100	102
+absolutely	1	13	50	55	120	123
+abt	1	11	120	122
+across	1	11	100	102
+actually	1	13	50	56
+after	1	11	21	22	100	103
+again	1	13	100	103
+against	1	11	50	56
+ahead	1	11	80	82	92	100	103
+ain't	1	12	15	20	50	56	91
+aint	1	12	15	20	50	56	91
+almost	1	13	50	54
+along	1	11
+already	1	13	90	100	103
+also	1	13	14
+altho	1	14
+although	1	14	50	56
+am	1	12	20	91
+amid	1	11
+amidst	1	11
+among*	1	11	100	102
+an	1	10
+and	1	14
+another	1	2	9	25
+anybod*	1	2	9	40	50	54
+anymore	1	2	9	100	103
+anyone*	1	2	9	40	50	54
+anything	1	2	9	50	54
+anyway*	1	13	120	125
+anywhere	1	13	50	54	100	102
+apparently	1	13	50	54
+are	1	12	20	91
+aren't	1	12	15	20	50	56	91
+arent	1	12	15	20	50	56	91
+around	1	11	13	100	102
+as	1	11	14	21	22
+at	1	11	100	102
+atop	1	11	100	102
+away	1	11	100	102
+awhile	1	13	100	103
+back	1	13	100	102	103
+barely	1	13	50	54
+basically	1	13
+bc	1	14	50	52	120	122
+be	1	12	20	91
+because	1	14	50	52
+become	1	12	20	50	51	91
+becomes	1	12	20	50	51	91
+becoming	1	12	20	50	51
+been	1	12	20	90
+before	1	11	21	22	100	103
+behind	1	11	100	102
+being	1	12	20
+below	1	11	80	83	100	102
+beneath	1	11	100	102
+beside	1	11	100	102
+besides	1	11	50	53
+between	1	11
+beyond	1	11	13	100	102
+briefly	1	13	100	101	103
+but	1	14	50	56
+by	1	11
+can	1	12	91
+can't	1	15	50	56	91
+cannot	1	12	15	20	50	56	91
+cant	1	15	50	56	91
+clearly	1	13	50	55
+commonly	1	13
+completely	1	13	50	55
+constantly	1	13	100	103
+continually	1	13	100	103
+cos	1	14	21	50	52
+could	1	12	20	50	53
+could've	1	12	20	50	53	90
+couldn't	1	12	15	20	50	53
+couldnt	1	12	15	20	50	53
+couldve	1	12	20	50	53	90
+coz	1	14	50	52	120	122
+cuz	1	14	50	52	120	122
+deez	1	2	9	120	122
+definitely	1	13	30	31	50	55
+despite	1	11	50	56
+did	1	12	20	90
+didn't	1	12	15	20	50	56	90
+didnt	1	12	15	20	50	56	90
+do	1	12	20	91
+does	1	12	20	91
+doesn't	1	12	15	20	91
+doesnt	1	12	15	20	91
+doing	1	12	20
+don't	1	12	15	20	91
+done	1	12	20	90
+dont	1	12	15	20	91
+down	1	11	80	83	100	102
+during	1	11	100	103
+especially	1	13	50	55
+essentially	1	13
+even	1	13
+eventually	1	13	92	100	103
+ever	1	13	50	55	100	103
+everybod*	1	2	9	40	50	55
+everyday	1	2	9	50	55	100	103
+everyone*	1	2	9	40	50	55
+everything*	1	2	9	40	50	55
+everywhere*	1	13	50	55	100	102
+except	1	11	50	56
+excluding	1	11	50	56
+exclusively	1	13	50	56
+extremely	1	13	50	55
+finally	1	13	100	103
+for	1	11
+fortunately	1	13	30	31
+frequently	1	13	100	103
+from	1	11
+fully	1	13	100	102
+generally	1	13	50	54
+gunna	1	12	20	92	120	122
+had	1	12	20	90
+hadn't	1	12	15	20	90
+hadnt	1	12	15	20	90
+hardly	1	13	50	54
+has	1	12	20	91
+hasn't	1	12	15	20	50	56	91
+hasnt	1	12	15	20	50	56	91
+have	1	12	20	91
+haven't	1	12	15	20	50	56	91
+havent	1	12	15	20	50	56	91
+having	1	12	20
+he	1	2	3	7	40	44
+he'd	1	2	3	7	12	20	40	44
+he's	1	2	3	7	12	20	40	44	91
+hence	1	13	50	52
+henceforth	1	13	92
+her	1	2	3	7	40	43
+here	1	13
+here's	1	13	20	91
+hereafter	1	11
+herein	1	13
+heres	1	13	20	91
+hereto*	1	13
+hers	1	2	3	7	40	43
+herself	1	2	3	7	40	43
+hes	1	2	3	7	12	20	40	44	91
+him	1	2	3	7	40	44
+himself	1	2	3	7	40	44
+his	1	2	3	7	40	44
+hissel*	1	2	3	7	40	44
+hopefully	1	13	30	31	50	53	54	92
+how	1	13	14	23	50	52
+how'd	1	13	14	20	23	50	52
+how're	1	13	14	20	23	50	52	91
+how's	1	13	14	20	23	50	52	91
+howd	1	13	14	20	23	50	52	90
+however	1	13	14	50	56
+howre	1	13	14	20	23	50	52	91
+hows	1	13	14	20	23	50	52	91
+i	1	2	3	4
+i'd	1	2	3	4	12	20
+i'd've	1	2	3	4	90
+i'll	1	2	3	4	12	20	92
+i'm	1	2	3	4	12	20	91
+i've	1	2	3	4	12	20	91
+id	1	2	3	4	12	20
+idc	1	2	3	4	120	122
+idgaf	1	2	3	4	120	121
+idk	1	2	3	4	15	120	122	125
+idontknow	1	2	3	4	120	125
+idve	1	2	3	4	90
+if	1	14	50	53	54	56
+ikr	1	2	3	4	120	122
+ily*	1	2	3	4	6	30	31	120	122
+im	1	2	3	4	12	20	91
+ima	1	2	3	4	92	120	122
+imean	1	2	3	4	120	125
+imma	1	2	3	4	92	120	122
+immediately	1	13	100	103
+in	1	11	100	102
+including	1	11
+indeed	1	13	50	55	120	123
+inside	1	11	100	102
+insides	1	11	100	102
+instead	1	13	50	56
+into	1	11	100	102
+is	1	12	20	91
+isn't	1	12	15	20	50	56	91
+isnt	1	12	15	20	50	56	91
+it	1	2	9
+it'd	1	2	9	12	20
+it'll	1	2	9	12	20	92
+it's	1	2	9	12	20	91
+itd	1	2	9	12	20
+itll	1	2	9	12	20	92
+its	1	2	9
+itself	1	2	9
+ive	1	2	3	4	12	20	91
+jus	1	13	50	56	120	122
+just	1	13
+juz	1	13	120	122
+lately	1	13	100	103
+let	1	12	20
+let's	1	2	3	5	20	40	80	81	91
+lets	1	2	3	5	20	40	80	81	91
+like	1	11	22
+may	1	12	20	50	54	92
+maybe	1	13	50	54
+me	1	2	3	4
+meanwhile	1	13	100	103
+methinks	1	2	3	4	50	51
+might	1	12	20	50	54	92
+might've	1	12	20	50	54	90
+mightve	1	12	20	50	54	90
+mine	1	2	3	4
+minus	1	11
+mostly	1	13	50	54
+must	1	12	20	50	53	55
+must'nt	1	12	15	20	50	53	55
+must've	1	12	20	50	55	90
+mustn't	1	12	15	20	50	53	55
+mustnt	1	12	15	20	50	53	55
+mustve	1	12	20	50	55	90
+my	1	2	3	4
+myself	1	2	3	4
+nah*	1	15	120	122
+namely	1	13	50	55
+near	1	11	100	102
+nearly	1	13	50	54
+need'nt	1	15	20	50	53	91
+needn't	1	15	20	50	53	91
+neednt	1	15	20	50	53	91
+negat*	1	15
+neither	1	15	21	22	50	56
+never	1	13	15	50	55	100	103
+nevertheless	1	13	14	50	56
+no	1	15
+nobod*	1	2	9	15
+noes	1	15	120	122
+none	1	15	25
+nonetheless	1	13
+nope	1	15
+nor	1	14	15	50	56
+not	1	15	50	56
+nothing	1	15	50	55
+notwithstanding	1	13	50	56
+now	1	13	91	100	103
+nowhere	1	15	50	55	100	102
+np	1	15	120	122
+of	1	11
+off	1	11	100	102
+often	1	13	50	54	100	103
+on	1	11	100	102
+oneself	1	2	3	7
+only	1	13
+onto	1	11	100	102
+or	1	14	50	54	56
+originally	1	13	100	103
+other	1	2	9	50	56
+others	1	2	9	50	56
+otherwise	1	14	50	56
+ought	1	12	20	50	53
+ought'nt	1	12	15	20	50	53
+ought've	1	12	20	50	53
+oughta	1	12	20	50	53
+oughtn't	1	12	15	20	50	53
+oughtnt	1	12	15	20	50	53
+oughtve	1	12	20	50	53
+our	1	2	3	5	40	80	81
+ours	1	2	3	5	40	80	81
+ourselves	1	2	3	5	40	80	81
+out	1	11	100	102
+outside	1	11	100	102
+over	1	11	80	83	100	102
+particularly	1	13	50	55
+perhaps	1	13	50	54
+plus	1	11	14	80	84
+practically	1	13	50	54
+presently	1	13	91	100	103
+primarily	1	13
+principally	1	13
+probab*	1	13	50	54
+prolly	1	13	50	54	120	122
+rarely	1	13	100	103
+rather	1	13	50	53	56
+really	1	13	50	56
+regarding	1	11
+regularly	1	13	100	103
+relatively	1	13
+respecting	1	11	30	31	80	83
+respectively	1	13	100	103
+sans	1	11
+seldomly	1	13	100	103
+seriously	1	13	30	32
+shall	1	12	20	92
+shan't	1	12	15	20	92
+shant	1	12	15	20	92
+she	1	2	3	7	40	43
+she'd	1	2	3	7	12	20	40	43
+she'll	1	2	3	7	12	20	40	43	92
+she's	1	2	3	7	12	20	40	43	91
+shes	1	2	3	7	12	20	40	91
+shortly	1	13	100	102
+should	1	12	20	50	53
+should'nt	1	12	15	20	50	53
+should've	1	12	20	50	53	90
+shouldn't	1	12	15	20	50	53
+shouldnt	1	12	15	20	50	53
+shouldve	1	12	20	50	53	90
+simply	1	13
+since	1	11	50	52	100	103
+so	1	13	14
+somebod*	1	2	9	40	50	54
+somehow	1	13	50	54
+someone*	1	2	9	40	50	54
+something*	1	2	9	50	54
+somewhat	1	13	25	50	54
+somewhere	1	2	13	50	54	100	102
+soon	1	13	92	100	103
+sooo*	1	13	120	122
+specifically	1	13	50	55
+still	1	13	100	103
+stuff	1	2	9
+subsequently	1	13	100	103
+such	1	13
+suddenly	1	13	100	103
+supposedly	1	13	50	54
+than	1	11	21	22	50	56
+that	1	2	9
+that'd	1	2	9	12	20
+that'll	1	2	9	12	20	92
+that's	1	2	9	12	20	91
+thatd	1	2	9	12	20
+thatll	1	2	9	12	20	92
+thats	1	2	9	12	20	91
+the	1	10
+thee	1	2	3	6	40
+their*	1	2	3	8	40
+them	1	2	3	8	40
+themself	1	2	3	8
+themselves	1	2	3	8	40
+then	1	14	92	100	103
+there	1	13
+there's	1	12	13	20	91
+thereafter	1	13	92
+therefor*	1	13	50	52
+theres	1	12	13	20	91
+these	1	2	9
+they	1	2	3	8	40
+they'd	1	2	3	8	12	20	40
+they'll	1	2	3	8	12	20	40	92
+they're	1	12	20	40	91
+they've	1	2	3	8	12	20	40	90
+theyd	1	2	3	8	12	20	40
+theyll	1	2	3	8	12	20	40	92
+theyre	1	12	20	40	91
+theyve	1	2	3	8	12	20	40	90
+thine	1	2	3	6	40
+thing*	1	2	9
+this	1	2	9
+tho	1	13	14	120	122
+tho'	1	13	14	120	122
+those	1	2	9
+thou	1	2	3	6	40
+though	1	13	14	50	56
+thoust	1	2	3	6	40
+through*	1	11
+thru	1	11	120
+thus*	1	13	50	52
+thy	1	2	3	6	40
+thyself	1	2	3	6
+til	1	11	14	100	103
+till	1	11	14	100	103
+to	1	11
+too	1	13
+totally	1	13	50	55
+toward*	1	11	100	102
+truly	1	13	30	31	50	55
+tryna	1	12	50	54	91	120	122
+typically	1	13	50	54
+u	1	2	3	6	120	122
+uh-uh	1	15	120
+ultimately	1	13
+unable	1	12	80	82
+uncommonly	1	13
+under	1	11	80	83	100	102
+underneath	1	11	100	102
+unless	1	11	14	50	56
+unlike	1	11	50	56
+until	1	11	14	100	103
+unto	1	11
+up	1	11	80	83	100	102
+upon	1	11	100	102
+ur	1	2	3	6	40	120	122
+us	1	2	3	5	40	80	81
+usually	1	13	50	54	100	103
+vastly	1	13	100	102
+versus	1	11	50	56
+very	1	13
+via	1	11	100	102
+virtually	1	13	50	54
+vs	1	11	50	56
+wanna	1	12	50	53	92	120
+was	1	12	20	90
+wasn't	1	12	15	20	50	56	90
+wasnt	1	12	15	20	50	56	90
+we	1	2	3	5	40	80	81
+we'd	1	2	3	5	12	20	40	80	81
+we'll	1	2	3	5	12	20	40	80	81	92
+we're	1	2	3	5	20	40	80	81	91
+we've	1	2	3	5	12	20	40	80	81	90
+well	1	13	30	31	120	124
+were	1	12	20	90
+weren't	1	12	15	20	50	56	90
+werent	1	12	15	20	50	56	90
+weve	1	2	3	5	12	20	40	80	81	90
+what	1	2	9	23
+what'd	1	2	9	20	23	90
+what'll	1	2	9	20	23	92
+what's	1	2	9	12	20	23	91
+whatd	1	2	9	20	23	90
+whatever	1	2	9	23
+whatll	1	2	9	20	23	92
+whats	1	2	9	12	20	91
+when	1	13	14	23	100	103
+when'*	1	13	14	23	100	103
+whence	1	13	23	100	103
+whenever	1	13	14	23	100	103
+where	1	13	23	100	102
+where'd	1	13	23	90	100	102
+whereas	1	14	50	56
+whereby	1	13	50	52
+wherefore	1	13	14	23	50	52
+wherein	1	13
+whereof	1	13
+wherever	1	13	14	23	100	102
+whether	1	14	23	50	56
+which	1	2	9	23
+whichever	1	2	9	23
+while	1	14	100	103
+whilst	1	14	100	103
+whither	1	13	23
+who	1	2	9	23	40
+who'd	1	2	9	12	20	23	40
+who'll	1	2	9	12	20	23	40	92
+who's	1	2	9	20	23	40	91
+whod	1	2	9	12	20	40
+whoever	1	2	9	23	40
+wholl	1	2	9	12	20	23	40	92
+wholly	1	13	50	55
+whom	1	2	9	23	40
+whomever	1	2	9	23	40
+whos	1	2	9	20	23	40	91
+whose	1	2	9	23	40
+whosever	1	2	9	23
+whoso*	1	2	9	23
+why	1	13	23	50	52
+why'*	1	13	23	50	52
+whyever	1	13	23	50	52
+will	1	12	20	92
+with	1	11
+within	1	11	100	102
+without	1	11	15	50	56
+won't	1	12	15	20	92
+wont	1	12	15	20	92
+would	1	12	20	50	53
+would've	1	12	20	50	53	90
+wouldn't	1	12	15	20	50	53
+wouldnt	1	12	15	20	50	53
+wouldve	1	12	20	50	53	90
+y'all	1	2	3	6	40
+y'all's	1	2	3	6	40
+ya	1	2	3	6	40	120	122
+ya'll*	1	2	3	6	40
+yall	1	2	3	6	40
+yalls	1	2	3	6	40
+ye	1	2	3	6	40
+yet	1	13	100	103
+yinz*	1	2	3	6
+you	1	2	3	6	40
+you'd	1	2	3	6	12	20	40
+you'll	1	2	3	6	12	20	40	92
+you're	1	2	3	6	12	20	40	91
+you've	1	2	3	6	12	20	40	90
+youd	1	2	3	6	12	20	40
+youll	1	2	3	6	12	20	40	92
+your	1	2	3	6	40
+youre	1	2	3	6	12	20	40	91
+yours	1	2	3	6	40
+yourself	1	2	3	6	40
+yourselves	1	2	3	6	40
+youve	1	2	3	6	12	20	40	90
+accept	20	30	31	50	51
+accepted	20	30	31	50	51	90
+accepts	20	30	31	50	51
+admit	20	40	50	51	91
+admits	20	40	50	51	91
+admitted	20	40	50	51	90
+admitting	20	40	50	51
+affect	20	50	52
+affected	20	50	52	90
+affecting	20	50	52
+affects	20	50	52
+appear	20	50	54	60	61	91
+appeared	20	50	54	60	61	90
+appears	20	50	54	60	61	91
+arrive	20	91	100	101
+arrived	20	90	100	101
+arrives	20	91	100	101
+ask	20	40	91
+asked	20	40	90
+asking	20	40
+asks	20	40	91
+ate	20	70	74	90
+attract	20	30	31	91
+attracts	20	30	31	91
+based	20	50	52
+became	20	50	51	90
+beg	20	80	83
+began	20	90	100	103
+begging	20	80	83	113
+begin	20	91	100	103
+begins	20	91	100	103
+begs	20	80	83	91
+believe	20	50	51	91
+believed	20	50	51	90
+believes	20	50	51	91
+binging	20	70	72	74
+born	20	90	100	103
+bought	20	90	113
+braved	20	30	31	90
+bring	20	91	100	101
+bringing	20	100	101
+brings	20	91	100	101
+broke	20	30	32	35	90
+brought	20	90	100	101
+called	20	40	90
+came	20	90	100	101
+care	20	30	31	91
+cared	20	30	31	90
+cares	20	30	31	91
+carried	20	90	100	101
+carries	20	91	100	101
+carry	20	91	100	101
+cashed	20	113
+cashes	20	91	113
+catching	20
+caught	20	90	100	101
+changed	20	50	52	90	100	101
+cleaned	20	90
+cleaning	20
+cleans	20	91
+come	20	91	100	101
+comes	20	91	100	101
+coming	20	92	100	101
+complied	20	50	52	80	83	90
+complies	20	50	52	80	83	91
+comply*	20	50	52	80	83
+confide	20	40	80	81	91
+confided	20	40	80	81	90
+confides	20	40	80	81	91
+confiding	20	40	80	81
+confuses	20	50	54	91
+consider	20	50	51	91
+considered	20	50	51
+considering	20	50	51
+considers	20	50	51	91
+contacted	20	40	90
+crave	20	80	84	91
+craved	20	90
+craves	20	91
+create	20	30	31	50	52	80	82
+created	20	30	31	50	52	80	82	90
+creates	20	30	31	50	52	80	82
+creating	20	30	31	50	52	80	82
+cried	20	30	32	35	90
+cries	20	30	32	35
+cry	20	30	32	35
+crying	20	30	32	35
+danced	20	40	80	81	90	100	101	111
+dancing	20	40	80	81	100	101	111
+dared	20	80	84	90
+decide	20	50	51	91
+decided	20	50	51	90
+decides	20	50	51	91
+deciding	20	50	51
+deceiv*	20	30	32	50	52
+defend*	20	30	32	80	85
+define	20	50	51	91
+defines	20	50	51	91
+delegated	20	80	83	90	110
+delegating	20	80	83	110
+delete	20	91
+deleted	20	90
+denied	20	80	83	90
+denies	20	80	83	91
+deny	20	80	83	91
+denying	20	80	83
+depart	20	100	101
+departed	20	90	100	101
+departing	20	100	101
+departs	20	100	101
+depend	20	50	52	54	91
+depended	20	50	52	54	90
+depends	20	50	52	54	91
+descend	20	100	101
+descended	20	90	100	101
+descending	20	100	101
+descends	20	100	101
+describe	20	91
+described	20
+describes	20	91
+describing	20
+determine	20	50	51	91
+determines	20	50	51	91
+die	20	91	115
+died	20	90	115
+dies	20	91	115
+differs	20	50	56	91
+dignify	20
+dine	20	70	74
+dined	20	70	74	90
+dines	20	70	74	91
+disappear	20	60	61	91
+disappeared	20	60	61	90
+disappearing	20	60	61
+disappears	20	60	61	91
+dislike	20	30	32	91
+disliked	20	30	32	90
+dislikes	20	30	32	91
+donate	20	80	81	91	113
+donated	20	90	113
+donates	20	91	113
+donating	20	113
+drank	20	70	74	90
+drove	20	90	100	101
+e-mailed	20	40	90
+e-mailing	20	40
+earning	20	80	82	84	110
+earns	20	80	82	84	91	110
+easing	20	30	31
+eat	20	70	74	91
+eaten	20	70	74	90
+eating	20	70	74
+eats	20	70	74	91
+emailed	20	40	90
+emailing	20	40
+enact*	20	50	52
+ended	20	90	100	103
+enter	20	91	100	101
+entered	20	90	100	101
+entering	20	100	101
+enters	20	91	100	101
+excelled	20	30	31	90	110
+excelling	20	30	31	110
+excels	20	30	31	80	82	91	110
+excite	20	30	31	80	84	91
+exclude	20	50	56	91
+excludes	20	50	56	91
+expel*	20
+explain	20	40	50	51	91
+explained	20	40	50	51	90
+explaining	20	40	50	51
+explains	20	40	50	51	91
+eye*	20	60	61	70	71
+eying	20	60	61
+favoring	20	30	31
+fed	20	70	74	90
+feel	20	50	51	60	63	91
+feeling	20	50	51	60	63
+feels	20	50	51	60	63	91
+fell	20	90	100	101
+felt	20	50	51	60	63	90
+find	20	50	51	91
+finds	20	50	51
+finish	20	100	103
+finished	20	90
+finishes	20	91	100	103
+finishing	20	100	103
+fled	20	80	85	90	100	101
+flee	20	80	85	100	101
+fleeing	20	80	85	100	101
+flees	20	80	85	100	101
+flew	20	90	100	101
+flirted	20	40	80	81	90
+flirting	20	30	31	40	80	81
+flirts	20	30	31	40	80	81	91
+flowed	20	90	100	101
+flown	20	90	100	101
+flows	20	91	100	101
+fly	20	100	101
+follow	20	91	100	101
+followed	20	90	100	101
+following	20	100	101
+follows	20	91	100	101
+fooling	20	30	32	40
+forbid	20	30	32	80	83	91
+forbids	20	30	32	80	83	91
+forget	20	91
+forgets	20	91
+forgetting	20
+forgot*	20	90
+fought	20	30	32	34	40	90
+found	20	50	51	90
+frequented	20	90	100	103
+frequenting	20	100	103
+frequents	20	91	100	103
+fuck	20	30	32	34	70	73	91	120	121
+fucked*	20	30	32	34	70	73	90	120	121
+fucks	20	30	32	34	70	73	91	120	121
+furthering	20	100	102
+gave	20	40	90
+get	20	80	84	91
+gets	20	80	84	91
+getting	20	80	84
+give	20	40	91
+given	20	90
+gives	20	40	91
+giving	20	30	31	40
+glided	20	90
+glides	20	91
+gliding	20	100	101
+go	20	91	100	101
+goes	20	91	100	101
+going	20	92	100	101
+gon	20	92	100	101	120	122
+gone	20	90	100	101
+gonna	20	92	100	101	120	122
+googled	20	90
+googles	20	91
+googling	20
+got	20	80	84	90
+gotta	20	92	120	122
+gotten	20	80	84	90
+grab*	20	60	63
+gravitate*	20	100	101
+gravitating	20
+grew	20	90	100	101
+grossing	20	30	32
+grow	20	91	100	101
+growing	20	100	101
+guess	20	50	54	91
+guessed	20	50	54	90
+guesses	20	50	54	91
+guessing	20	50	54
+hang	20	91	100	101
+happen	20	91
+happened	20	90
+happening	20	100	103
+happens	20	91
+harming	20	30	32
+harms	20	30	32	91
+hate	20	30	32	34	91
+hated	20	30	32	34	90
+hates	20	30	32	34	91
+hating	20	30	32	34
+he'll	20	40	44	92
+headin*	20	92	100	101
+heal	20	30	31	70	72	91
+healed	20	30	31	70	72	90
+healing	20	30	31	70	72
+heals	20	30	31	70	72	91
+hear	20	40	60	62	91
+heard	20	40	60	62	90
+hears	20	40	60	62	91
+heed	20	50	51	91
+heeded	20	50	51	90
+held	20	90
+helped	20	90
+helps	20	30	31	40	80	81	91
+hired	20	80	83	90	110
+hiring	20	110
+hit	20
+hope	20	30	31	50	53	54	91	92
+hoped	20	30	31	50	53	54	90
+hopes	20	30	31	50	53	54	91
+hoping	20	30	31	50	53	54	92
+hurrie*	20	100	103
+ignore	20	30	32	91
+ignored	20	30	32	90
+ignores	20	30	32	91
+ignoring	20	30	32
+infer	20	50	51	52	91
+infers	20	50	51	52	91
+inform	20	40	50	51	91
+informed	20	40	50	51	90
+informing	20	40	50	51
+informs	20	40	50	51	91
+intertwine	20	100	102
+invaded	20	90
+invades	20	80	83	91
+invading	20	80	83
+join	20	80	81	91
+joined	20	80	81	90
+joining	20	80	81
+jump	20	91	100	101
+jumped	20	90	100	101
+jumping	20	100	101
+jumps	20	91	100	101
+keep	20	91
+keeps	20	91
+kept	20	90
+kick	20	91
+kicked	20	90
+kicking	20
+knew	20	50	51	90
+know	20	50	51	91
+knowing	20	50	51
+known	20	50	51	90
+knows	20	50	51	91
+lack	20	50	53	80	85	91
+lacking	20	50	53	80	85
+lacks	20	50	53	80	85	91
+laid	20	90
+lay	20	91
+laying	20
+lays	20	91
+learn	20	50	51	91	110
+learned	20	50	51	90	110
+learning	20	50	51	110
+learns	20	50	51	91	110
+learnt	20	50	51	90	110
+leave	20	91	100	101
+leaving	20	100	101
+left	20	90	100	102
+lend	20	80	83	91	113
+lending	20	80	83	113
+lends	20	80	83	91	113
+lied	20	30	32	34	90
+to like	20	30	31	91
+(i) like*	20	30	31
+(you) like*	20	30	31
+(we) like*	20	30	31
+(they) like*	20	30	31
+liked	20	30	31	90
+likes	20	30	31	91
+liking	20	30	31
+listen	20	40	60	62	91
+listened	20	40	60	62	90
+listening	20	40	60	62
+listens	20	40	60	62	91
+live	20	70	72	91
+lived	20	70	72	90
+lives	20	70	72	91
+living	20	70	72
+look	20	60	61	91
+looked	20	60	61	90
+looking	20	60	61
+looks	20	60	61	91
+looming	20	92
+loosen*	20	60	63
+lose	20	30	32	35	80	82	85	91
+loses	20	30	32	35	80	82	85	91
+losing	20	30	32	35	80	82	85
+lost	20	30	32	35	80	82	90
+lowered	20	30	32	35	80	83	90	100	102
+lowering	20	30	32	35	80	83	100	102
+lowers	20	30	32	35	80	83	91	100	102
+lying	20	30	32	34	40
+made	20	50	52	90	90
+mailed	20	40	90
+mailing	20	40
+mails	20	40	91
+majoring	20	110
+make	20	50	52	91
+makes	20	50	52	91
+making	20	50	52
+managed	20	80	83	90	110
+manages	20	80	83	91	110
+mapped	20	100	102
+mapping	20	100	102
+mastered	20	80	82	83	90
+mastering	20	80	83
+mated	20	70	73	80	81	90
+mating	20	40	70	73	80	81
+mean	20	21	50	51	91
+means	20	50	51	91
+meant	20	50	51	90
+meet	20	40	80	81	91
+meets	20	40	80	81	91
+messaging	20	40	80	81
+met	20	40	80	81	90
+miss	20	30	32	35	91
+missed	20	30	32	35	90
+misses	20	30	32	35	91
+missing	20	30	32	35
+mobb*	20
+mock	20	30	32	34	40	91
+mocked	20	30	32	34	40	90
+mocking	20	30	32	34	40
+mocks	20	30	32	34	40	91
+mothered	20	40	41	43	90
+mothering	20	40	41	43
+move	20	91	100	101
+moved	20	90	100	101
+moves	20	91	100	101
+moving	20	100	101
+named	20	90
+narrowed	20	90	100	102
+neared	20	90	100	102
+nearing	20	100	102
+need	20	50	53	91
+needed	20	50	53	90
+needing	20	50	53
+needs	20	50	53	91
+notice	20	50	51	91
+noticed	20	50	51	90
+notices	20	50	51	91
+noticing	20	50	51
+obey	20	50	52	80	83	91
+obeyed	20	50	52	80	83	90
+obeying	20	50	52	80	83
+obeys	20	50	52	80	83	91
+obtain	20	80	82	84	91
+obtained	20	80	82	84	90
+obtaining	20	80	82	84
+obtains	20	80	82	84	91
+okayed	20	30	31	90
+okays	20	30	31	91
+oks	20	30	31	91
+open	20	91	100	102
+opens	20	91	100	102
+organizes	20	91	110
+organizing	20	110
+overate	20	70	74
+overcame	20	80	82	90
+overcome	20	80	82	91
+overcomes	20	80	82	91
+overcoming	20	80	82
+overdosed	20	90	115
+overeat*	20	70	74	90
+owe	20	91	113
+owed	20	90	113
+owes	20	91	113
+owing	20	113
+paid	20	90	113
+pass	20	91	100	101
+passed	20	90	100	101
+passes	20	91	100	101
+passing	20	100	101
+perfected	20	30	31	50	55	80	82	84	90
+perfects	20	50	55	80	82
+phoning	20	40
+pick	20	50	52	91
+picked	20	50	52	90
+picking	20	50	52
+picks	20	50	52	91
+pitied	20	30	32	35	80	83	90
+pities	20	30	32	35	80	83	91
+placing*	20	100	102
+played	20	30	31	90	111
+playing	20	30	31	111
+posted	20	90
+practiced	20	80	82	90	110
+practices	20	80	82	91	110
+practicing	20	80	82	110
+pranc*	20	100	101
+pray	20	92	114
+prayed	20	92	114
+praying	20	92	114
+prays	20	114
+pressed	20	60	63	90
+presses	20	60	63
+protested	20	30	32	34	90
+protesting	20	30	32	34
+pull*	20	100	101
+push	20	100	101
+pushe*	20	100	101
+pushing	20	100	101
+put	20	100	101
+puts	20	91	100	101
+questioned	20	50	51	54	90
+questioning	20	50	51	54
+quit	20	80	82
+ran	20	90	100	101
+rang	20	60	62
+read	20	110
+reading	20
+realize	20	50	51	91
+realized	20	50	51	90
+realizes	20	50	51	91
+realizing	20	50	51
+relating	20	50	51
+remember	20	50	51	90
+remembered	20	50	51	90
+remembering	20	50	51	90
+remembers	20	50	51	90
+replacing	20	100	101
+resourcing	20	110
+resting	20	111
+revolve	20	91	100	101
+revolved	20	90	100	101
+revolves	20	91	100	101
+revolving	20	100	101
+riding	20	100	101
+ringing	20	60	62
+rode	20	90	100	101
+roomed	20	40	90	100	102	112
+rooming	20	40	100	102	112
+rowing	20	111
+rub	20	60	63	91
+rubbed	20	60	63	90
+rubbing	20	60	63
+rubs	20	60	63	91
+run	20	91	100	101
+running	20	100	101	111
+runs	20	91	100	101
+said	20	40	60	62	90
+sang	20	60	62	90	111
+sank	20	90	100	101
+sat	20	90	100	103
+save	20	30	31	91
+saw	20	60	61	90
+say	20	40	60	62	91
+saying	20	40	60	62
+says	20	40	60	62	91
+scares	20	30	32	33	91
+scaring	20	30	32	33
+see	20	60	61	91
+seeing	20	60	61
+seem	20	50	51	54	91
+seemed	20	50	51	54	90
+seems	20	50	51	54	91
+seen	20	60	61	90
+sees	20	60	61	91
+sell	20	91	113
+selling	20	113
+sells	20	91	113
+send	20	40	91	100	101
+sending	20	40	100	101
+sends	20	40	91	100	101
+sensed	20	50	51	60	90
+sensing	20	50	51	60
+sent	20	40	90	100	101
+sexing	20	70	73
+shaping*	20	100	102
+shared	20	30	31	40	80	81	90
+sharing	20	30	31	40	80	81
+shook	20	30	32	33	90	100	101
+shove	20	91	100	101
+shoved	20	90	100	101
+shoves	20	91	100	101
+shoving	20	100	101
+showed	20	60	61	90
+shrug*	20	100	101
+shut	20	21	100	102
+sigh	20	30	32	35	91	120	124
+sighed	20	30	32	35	90	120	124
+sighing	20	30	32	35	120	124
+sighs	20	30	32	35	91	120	124
+sing	20	60	62	91	111
+singing	20	60	62	111
+sings	20	60	62	91	111
+sinking	20	100	101
+sit	20	91	100	102
+sits	20	91	100	102
+sitting	20	100	102
+ski	20	111
+skied	20	90	111
+skiing	20	111
+slay*	20	115
+sleeping	20	21	70	71
+sleeps	20	70	71	91
+sleepwalk*	20	70	71
+slept	20	70	71	90
+slid	20	90	100	101
+slide	20	91	100	101
+slides	20	91	100	101
+sliding	20	100	101
+slowed	20	90	100	101	103
+slowing	20	100	101	103
+slows	20	91	100	101	103
+sob	20	30	32	35	91
+sobbed	20	30	32	35	90
+sobbing	20	30	32	35
+sobs	20	30	32	35	91
+sold	20	90	113
+solve	20	50	51	52	80	82	91
+solved	20	50	51	52	80	82	90
+solves	20	50	51	52	80	82	91
+solving	20	50	51	52	80	82
+speak	20	40	60	62	91
+speaking	20	40	60	62
+speaks	20	40	60	62	91
+sped	20	90	100	103
+spend	20	91	113
+spending	20	113
+spends	20	91	113
+spent	20	90	113
+spin	20	91	100	101
+spits	20	70	71	91
+spitting	20	70	71
+spoke*	20	40	60	62	90
+spose	20	50	54	91
+spun	20	90	100	101
+stare*	20	60	61
+staring	20	60	61
+start	20	91	100	103
+started	20	90	100	103
+starting	20	100	103
+starts	20	91	100	103
+starving	20	70	74
+stay	20	91	100	101	102
+stayed	20	90	100	101	102
+staying	20	100	101	102
+stays	20	91	100	101	102
+stir	20	91	100	101
+stirred	20	90	100	101
+stirring	20	100	101
+stirs	20	91	100	101
+stocked	20	90	110
+stole	20	80	84	90
+stood	20	90
+stopped	20	80	85	90	100	103
+stopping	20	80	85	100	103
+stuck	20	90	100	102
+studied	20	90	110
+stumble	20	91	100	101
+stumbled	20	90	100	101
+stumbles	20	91	100	101
+stumbling	20	100	101
+stun	20	91
+stuns	20	30	91
+submit*	20	80	83
+suck	20	30	32	34	91	120	121
+sucked	20	30	32	34	90	120	121
+sucking	20
+sucks	20	30	32	34	91	120	121
+suffer	20	30	32	35	91
+suffered	20	30	32	35	90
+suffering	20	30	32	35
+suffers	20	30	32	35	91
+sung	20	60	62	90	111
+sunk	20	90	100	101
+support	20	30	31	91
+suppose	20	50	54	91
+supposed	20	50	54	90
+supposes	20	50	54	91
+supposing	20	50	54
+surf	20	100	101	111
+surfed	20	90	100	101	111
+surfing	20	100	101	111
+surfs	20	100	101	111
+swam	20	90	100	101
+sway	20	91	100	101
+swerve	20	91	100	101
+swerved	20	90	100	101
+swerves	20	91	100	101
+swerving	20	100	101
+swing	20	91	100	101
+swinging	20	100	101
+swings	20	91	100	101
+swung	20	90	100	101
+take	20	80	84	91
+taken	20	80	84	90
+takes	20	80	84	91
+taking	20	80	84
+talked	20	40	90
+talking	20	40
+talks	20	40	91
+tanning	20	111
+tasted	20	60	70	74	90
+tastes	20	60	70	74	91
+tasting	20	60	70	74
+taught	20	80	83	90	110
+tell	20	40	91
+telling	20	40
+tells	20	40	91
+tend	20	91
+tended	20	90
+tends	20	91
+tensing	20	30	32	33
+terrifies	20	30	32	33	91
+terrify	20	30	32	33	91
+tested	20	90	110
+testing	20	110
+texted	20	40	80	81	90
+texting	20	40	80	81
+thank	20	30	31	91
+thanked	20	30	31	90
+thanking	20	30	31
+thanks	20	30	31	91
+think	20	50	51	91
+thinking	20	50	51
+thinks	20	50	51	91
+thinned	20	90	100	102
+thirsting	20	70	71	74	91
+thirsts	20	70	71	74	91
+thought	20	50	51
+threw	20	90	100	101
+throw	20	91	100	101
+thrown	20	90	100	101
+throws	20	91	100	101
+told	20	40	90
+took	20	80	84	90
+trading	20	110	113
+travel	20	91	100	101	111
+traveled	20	90	100	101	111
+traveling	20	100	101	111
+travels	20	91	100	101	111
+tricked	20	30	32	34	50	51	90
+tried	20	80	82	90
+tries	20	80	82	91
+tripped	20	90	100	101
+tripping	20	100	101
+trips	20	100	101
+trot	20	91	100	101
+trots	20	91	100	101
+trotted	20	90	100	101
+trotting	20	100	101
+trusted	20	21	30	31	40	80	85	90
+trusting	20	21	30	31	40	80	85
+trusts	20	30	31	40	80	85	91
+try	20	50	54	80	82	91
+trying	20	50	54	80	82
+tumble	20	91	100	101
+tumbled	20	90	100	101
+tumbles	20	91	100	101
+tumbling	20	100	101
+turn	20	91	100	101
+turned	20	90	100	101
+turns	20	91	100	101
+twirl*	20	100	101
+twist*	20	100	101
+twitch	20	70	72	91	100	101
+twitched	20	70	72	90	100	101
+twitching	20	70	72	100	101
+typed	20	90	110
+typing	20	110
+understand	20	50	51	91
+understands	20	50	51	91
+understood	20	50	51	90
+undid	20	50	53	90
+undo	20	50	53	91
+undoes	20	50	53	91
+undoing	20	50	53
+unfollow*	20	120	122
+unfriend	20	91	120	122
+unfriended	20	90	120	122
+unfriending	20	120	122
+unfriends	20	91	120	122
+upsets	20	30	32	33	91
+use	20	50	52	91
+used	20	50	52	90
+uses	20	50	52	91
+using	20	50	52
+valuing	20	30	31
+varies	20	50	54
+vary	20	50	54	91
+viewed	20	90
+visit	20	40	100	101
+visited	20	40	90	100	101
+visiting	20	40	100	101
+voted	20	90
+voting	20
+waddl*	20	100	101
+wag	20	91	100	101
+wagered	20	80	84	90	113
+wagering	20	80	84	113
+wagers	20	80	84	113
+wagged	20	90	100	101
+wagging	20	100	101
+wags	20	91	100	101
+wait	20	91	100	103
+waited	20	90	100	103
+waiting	20	100	103
+waits	20	91	100	103
+walk	20	91	100	101
+walked	20	90	100	101
+walking	20	100	101
+walks	20	91	100	101
+want	20	50	53	91
+wanted	20	50	53	90
+wanting	20	50	53
+wants	20	50	53	91	92
+warmed	20	30	31	60	63	90
+warming	20	30	31	60	63
+warms	20	30	31	60	63	91
+warred	20	30	32	34	80	83	90
+wash	20	70	72	91
+washed	20	70	72	90
+washes	20	70	72	91
+washing	20	70	72
+watched	20	60	61	90
+watching	20	60	61
+weaken	20	30	32	70	72	80	83
+weakened	20	21	30	32	70	72	80	83	90
+weakening	20	30	32	70	72	80	83
+weakens	20	30	32	70	72	80	83	91
+wear	20	70	71	91
+wearing	20	70	71
+wears	20	70	71	91
+weds	20	40	80	81	91
+weep*	20	30	32	35
+weigh	20	70	74	91
+weighed	20	70	74	90
+weighing*	20	70	74
+weighs	20	70	74	91
+weirded	20	30	32	90
+weirds	20	30	32	91
+went	20	90	100	101
+wept	20	30	32	35	90
+where's	20	23	91	100	102
+wheres	20	91	100	102
+whine*	20	30	32	35	60	62
+whining	20	30	32	35	60	62
+whisper*	20	60	62
+wish	20	50	53	92
+wished	20	50	53	90
+wishes	20	50	53	92
+wishing	20	50	53	92
+wobbled	20	90	100	101
+wobbling	20	100	101
+woke	20	90
+woken	20	90
+won	20	30	31	80	82	84	90
+wonder	20	50	51	54	91
+wondered	20	50	51	54	90
+wondering	20	50	51	54
+wonders	20	50	51	54	91
+wore	20	70	71	90
+worked	20	80	82	90	110
+working	20	80	82	110
+works	20	80	82	91	110
+worn	20	21	90
+worry	20	30	32	33	91
+worrying	20	30	32	33
+worsen	20	30	32	90
+worsened	20	30	32
+worsens	20	30	32	91
+write	20	91	110
+writes	20	91	110
+writing	20	110
+written	20	90	110
+wrote	20	90	110
+yell	20	30	32	34	60	62	91
+yelled	20	30	32	34	60	62	90
+yelling	20	30	32	34	60	62
+yells	20	30	32	34	60	62	91
+abnormal*	21	50	53
+academic	21	110
+active	21	30	31
+additional	21
+affordable	21	113
+afraid	21	30	32	33
+aggressive	21	30	32	34
+agreeable	21	30	31
+alike	21	22
+alive	21	70	72	115
+alone	21	30	32	35
+amazing	21	30	31
+ambitious	21	80	82	83	110
+ancient	21	100	103
+angrier	21	22	30	32	34
+angriest	21	22	30	32	34
+angry	21	30	32	34
+annoying	21	30	32	34
+antisocial	21
+anxious	21	30	32	33
+apparent	21	50	55
+approachable	21	40
+appropriate	21
+artistic	21
+artsy	21	111
+asleep	21	70	71
+assertive	21	80	83
+athletic	21	111
+attainable	21	80	82	92
+attractive	21
+average	21	25
+awesome	21	30	31	120	123
+awesomer	21	22
+awesomest	21	22
+awful	21	30	32
+awfulest	21	22
+basic	21
+beautiful	21	30	31	60	61
+best	21	22	30	31	80	82	83	84
+bestest	21	30	31
+better	21	22	30	31	80	82	84
+big	21	80	83	100	102
+bigger	21	22	80	83	100	102
+biggest	21	22	80	83	100	102
+bitter	21	30	32	34	60
+blonde	21	60	61
+blue	21	60	61
+bolder	21	22	30	31
+boldest	21	22	30	31
+boring	21	30	32
+bossy	21	80	83
+bottom	21	22	80	83	100	102
+braver	21	22	30	31
+bravest	21	22	30	31
+brighter	21	22	60	61
+brightest	21	22	60	61
+brilliant	21	30	31
+broad	21	100	102
+broader	21	22	100	102
+broadest	21	22	100	102
+broken	21
+brown	21	60	61
+busier	21	22	110
+busiest	21	22	110
+busy	21	100	103	110
+calm	21	30	31
+calmer	21	22	30	31
+calmest	21	22	30	31
+caring	21	30	31
+cheaper	21	22	80	83	113
+cheapest	21	22	80	83	113
+cheerful	21	30	31
+cheery	21	30	31
+chilly	21
+chummy	21	80	81
+classic	21
+classical	21
+clean	21
+cleaner	21	22
+cleanest	21	22
+clear	21	50	55	60	61
+clever	21	30	31
+closer	21	22	100	102
+closest	21	22	100	102
+cold	21	60	63
+colder	21	22	60	63
+coldest	21	22	60	63
+comfortable	21	30	31
+common	21	100
+compar*	21	22
+complex	21	50	51
+compliant	21	50	52	80	83
+complicated	21	50	51
+considerate	21	30	31
+cool	21	30	31	60	63	120	123
+cooler	21	22	60	63
+coolest	21	22	60	63
+crappy	21	30	32	34	120	121
+crazier	21	22	30
+craziest	21	22	30
+crazy	21	30	32
+creative	21	30	31	50	52	80	82
+creepier	21	22
+creepiest	21	22
+crisp	21
+cruel	21	30	32	34
+crueler	21	22	30	32	34
+cruelest	21	22	30	32	34
+cute	21	30	31
+cuter	21	22	30	31
+cutest	21	22	30	31
+daily	21	100	103
+dangerous	21	30	32	80	85
+dank	21	120	122
+danker	21	22	120	122
+dankest	21	22	120	122
+darker	21	22	60	61
+darkest	21	22	60	61
+deceptive	21	30	32
+dedicated	21
+deep	21	100	102
+deeper	21	22	100	102
+deepest	21	22	100	102
+defenseless	21	30	32	80	83
+defensive	21	30	32
+definite	21	50	55
+dense	21	100	102
+destructive	21	30	32	34
+difference*	21	22	50	56
+different	21	22	50	56
+difficult	21	30	32	80	85
+digital	21
+dirtier	21	22
+dirtiest	21	22
+dirty	21
+dissimil*	21	22	50	56
+distal	21	100	102
+drier	21	22	60	63
+driest	21	22	60	63
+drunke*	21	70	74	111
+dry	21	60	63
+dull	21	30	32	35
+dumb	21	30	32	34	120	121
+dumber	21	22	30	32	34	120	121
+dumbest	21	22	30	32	34	120	121
+eager	21	30	31	80	84
+earlier	21	22	90	100	103
+earliest	21	22	100	103
+early	21	100	103
+easier	21	22	30	31
+easiest	21	22	30	31
+easy*	21	30	31
+educational	21	110
+either	21	22	25	50	56
+emotional	21	30	32
+emptier	21	22	30	32	35	80	82	100
+emptiest	21	22	30	32	35	80	82	100
+empty	21	30	32	35	80	82	100	102
+endless	21
+envious	21	30	32	34
+equal*	21	22	25
+equival*	21	22
+erectile	21	70	71	73
+essential	21	50	55
+eventual	21	92
+evil	21	30	32
+excited	21	30	31	80	84
+exciting	21	30	31	80	84
+extra	21	25
+extreme	21
+fabulous	21	30	31
+fair	21	30	31
+fairer	21	22	30	31
+fairest	21	22	30	31
+fake	21	30	32
+familiar	21
+fantastic	21	30	31
+fantastical	21	30	31
+far	21	100	102
+farsighted	21	70	72
+farther	21	22	100	102
+farthest	21	22	100	102
+faster	21	22	100	101	103
+fastest	21	22	100	101	103
+fat	21	70	71	72	74
+fatter	21	22	70	71	72	74
+fattest	21	22
+fattier	21	22	70	71	74
+fattiest	21	22	70	71	72	74
+fav	21	30	31	120	122
+fave	21	30	31
+favorite	21	30	31
+feasible	21	50	54	92
+female	21	40	43
+feminine	21	40	43
+few	21	25
+fewer	21	22	25
+fewest	21	22	25
+fiery	21	30	32	34
+final	21	100	103
+fine	21	30	31
+finer	21	22	30	31
+finest	21	22	30	31
+flat	21	100	102
+flirtatious	21	30	31	40	80	81
+flirty	21	30	31	40	80	81
+fond	21	30	31
+foolish	21	30	32
+foolishly	21	30	32
+forbidden	21	30	32	80	83
+former	21	22	90	100	103
+formerly	21	22	90	100	103
+forseeable	21	92
+forthcoming	21	92
+free	21	30	31	113
+frequent	21	100	103
+fresh	21
+fresher	21	22
+freshest	21	22
+friendlier	21	22	30	40	42
+friendliest	21	22	30	40	42
+fuckin*	21	30	32	34	70	73	120	121
+full	21	100	102
+fuller	21	22	100	102
+fullest	21	22	100	102
+fun	21	30	31	111
+fundamental	21	50	55
+funner	21	22	30	31	111
+funnest	21	22	30	31	111
+funnier	21	22	30	31
+funniest	21	22	30	31
+funny	21	30	31
+further	21	22	100	102
+furthest	21	22
+gay	21	70	73
+gayer	21	22
+gayest	21	22
+general	21
+gentle	21	30	31
+gentler	21	22	30	31
+gentlest	21	22	30	31
+genuine	21	50	51
+giant	21	100	102
+gigantic	21	100	102
+ginormous	21	100	102
+girly	21	40	43
+glad	21	30	31
+gloomier	21	22	30	32	35	60	61
+gloomiest	21	22	30	32	35	60	61
+good-for-nothing	21	30	32	80	83
+gorgeous	21	30	31
+grand	21	30	31
+gray	21	60	61
+great	21	30	31	80	84
+greater	21	22	30	31
+greatest	21	22	30	31	80	83
+green	21	60	61
+grey	21	60	61
+grim	21	30	32	35
+gross	21	30	32
+grosser	21	22	30	32
+grossest	21	22	30	32
+guiltier	21	22	30	32
+guiltiest	21	22	30	32
+guilty	21	30	32	33
+hairy	21	60	63	70	71
+handsome	21	30	31
+handsomest	21	22	30	31
+happier	21	22	30	31
+happiest	21	22	30	31
+happy	21	30	31
+hard	21	60	63
+harder	21	22	60	63
+hardest	21	22	60	63
+harmful	21	30	32
+haunted	21	30	32
+hazy	21	30	50	54	60	61
+healthful	21	70	72
+healthier	21	22	70	72
+healthiest	21	22	70	72
+healthy	21	30	31
+heartfelt	21	30	31
+heavie*	21	22	60	63
+heavy	21	60	63
+hellish	21	30	32	34	114
+helpful	21	30	31	40	80	81
+hidden	21	60	61
+high	21	80	83	100	102
+high-ranking	21	80	83
+higher	21	22	80	83	100	102
+highest	21	22	80	83	100	102
+holier	21	22	114
+holiest	21	22	114
+holy	21	114
+homemade	21
+honest	21	30	31
+hopeful	21	30	31	50	53	54	92
+horny	21	70	71	73
+horrible	21	30	32	33
+hot	21	60	63
+hotter	21	22	60	63
+hottest	21	22	60	63
+huger	21	22	80	83	100	102
+hugest	21	22	80	83	100	102
+humbler	21	22	80	83
+humblest	21	22	80	83
+hungrier	21	22	70	74
+hungriest	21	22	70	74
+identical	21	22
+impossible	21	50	53
+incredible	21
+inexpensive	21	113
+inferior	21	30	32	35	80	83	100	102
+influential	21	80	83
+infrequent	21	100	103
+insane	21
+insignificant	21	80	83
+ironic	21
+lamer	21	22	30	32	35
+lamest	21	22	30	32	35
+large	21	80	83	100	102
+larger	21	22	80	83	100	102
+largest	21	22	80	83	100	102
+late	21	100	103
+later	21	22	100	103
+latest	21	22	100	103
+lazier	21	22	30	32	80	82
+laziest	21	22	30	32	80	82
+least	21	22	25
+legit	21	30	31
+less	21	22	25
+lighter	21	22
+lightest	21	22
+lil	21	80	83	100	102	120	122
+littler	21	22	80	83	100	102
+littlest	21	22	80	83	100	102
+lonelier	21	22	30	32	35
+loneliest	21	22	30	32	35
+longer	21	22	100	102
+longest	21	22	100	102
+loose	21	60	63
+looser	21	22	60	63
+loosest	21	22	60	63
+louder	21	22	60	62
+loudest	21	22	60	62
+lovelier	21	22	30	31
+loveliest	21	22	30	31
+lower	21	22	30	32	35	80	83	100	102
+lowest	21	22	30	32	35	80	83	100	102
+loyal	21	30	31	80	81
+luckier	21	22	30	31	50	54
+luckiest	21	22	30	31	50	54
+lucky	21	30	31	50	54	80	84
+madder	21	22	30	32	34
+maddest	21	22	30	32	34
+magical	21
+masculine	21	40	44
+massive	21	80	83	100	102
+maternal*	21	40	41	43
+mature	21	70
+meaner	21	22	30	32	34
+meanest	21	22	30	32	34
+menial	21	80	83	110
+mental	21
+messier	21	22	30	32
+messiest	21	22	30	32
+messy	21	30	32
+middle	21	22	100	102
+milder	21	22
+mildest	21	22
+mixed	21	100	102
+mo	21	22	25
+mo'	21	22	25	120	122
+modern	21	100	103
+moist	21	60	63
+moldy	21
+more	21	22	25
+most	21	22	25	50	54
+motherfuckin*	21	120	121
+muscular	21	70	71
+naked	21	70	71	73
+narrow	21	100	102
+narrower	21	22	100	102
+narrowest	21	22	100	102
+nasal	21	60	70	71
+national	21	100	102
+natural	21
+naughty	21
+nearer	21	22	100	102
+nearest	21	22	100	102
+nearsighted	21	70	72
+neat	21	30	31
+neater	21	22	30	31
+neatest	21	22	30	31
+necessary	21	50	55
+needless	21
+needy	21	30	32
+nervous	21	30	32	33
+new	21	100	103
+newer	21	22	100	103
+newest	21	22	100	103
+next	21	100	103
+nice	21	30	31
+nicer	21	22	30	31
+nicest	21	22	30	31
+noisier	21	22	60	62
+noisiest	21	22	60	62
+noisy	21	60	62
+normal	21
+nuclear	21
+numerous	21
+odder	21	22	50	53
+oddest	21	22	50	53
+older	21	22	100	103
+oldest	21	22	100	103
+optimistic	21	30	31	80	84
+orange	21	60	61
+organized	21	90	110
+original	21	30	31
+outgoing	21	30	31
+outstanding	21	50	53
+overpaid	21	110	113
+overweight	21	70	72	74
+overworked	21	110
+particular	21	22
+paternal	21	40	41	44
+pathetic	21	30	32	35	80	83
+peaceful	21	30	31
+perfect	21	30	31	50	55	80	84	91
+permanent	21	100	103
+personal	21	30	40
+pervy	21	30	32	70	73
+pesky	21
+pettier	21	22	30	32	34
+pettiest	21	22	30	32	34
+petty	21	30	32	34
+phony	21	30	32
+physical	21	70	72
+picky	21
+pimply	21	70	72
+pink	21	60	61
+pious	21	114
+pitiable	21	30	32	35	80	83
+pitiful	21	30	32	35	80	83
+plain	21
+plainer	21	22
+plainest	21	22
+playful	21	30	31	111
+pointless	21
+polite	21	30	31	40
+politic*	21	80	83	110
+poor	21	30	32	80	83	113
+poorer	21	22	30	32	80	83	113
+poorest	21	22	30	32	80	83	113
+popular	21	30	31	40
+positive	21	30	31	50	55	80	84
+practical	21
+prettier	21	22	30	31
+prettiest	21	22	30	31
+prouder	21	22	30	31	80	82
+proudest	21	22	30	31	80	82
+proximal	21	100	102
+prudish	21	70	73
+pubic	21	70	71	73
+purer	21	22
+purest	21	22	50	55
+pushier	21	22
+pushiest	21	22
+quicker	21	22	100	103
+quickest	21	22	100	103
+quiet	21	60	62
+quieter	21	22	60	62
+quietest	21	22	60	62
+rabbinical	21	114
+random	21	50	54
+rapid	21	100	101
+rare	21
+rarer	21	22
+rarest	21	22
+raw	21
+recent*	21	22	100	103
+red	21	60	61
+regular	21
+relevant	21
+respectful	21	30	31	80	83
+respective	21	50	56
+rich	21	30	31	80	83	113
+richer	21	22	30	31	80	83	113
+richest	21	22	30	31	80	83	113
+rigid	21	30	32	33
+rotten	21	30	32	60
+rough	21	60	63
+rougher	21	22	60	63
+roughest	21	22	60	63
+round	21	60	61	63
+rounder	21	22	60	61	63
+roundest	21	22	60	61	63
+royal	21	80	83
+rude	21	30	32	34
+sacred	21	114
+sad	21	30	32	35
+sadder	21	22	30	32	35
+saddest	21	22	30	32	35
+safe	21	30	31	80	85
+safer	21	22	30	31	80	85
+safest	21	22	30	31	80	85
+salty	21	60	70	74
+same	21	22
+sandy	21	60	63
+sane	21
+scarce	21	25
+scarcer	21	22	25
+scarcest	21	22	25
+scared	21	30	32	33
+scarier	21	22	30	32	33
+scariest	21	22	30	32	33
+scary	21	30	32	33
+scholarly	21	110
+scrumptious*	21	30	31	60
+secret	21	40	50	51
+secretive	21	40	50	51
+seldom	21	100	103
+sensitive	21
+serious	21	30	32
+sexier	21	22	70	73
+sexiest	21	22	70	73
+sexy	21	30	31	70	73
+shadier	21	22
+shadiest	21	22
+shady	21
+shaky	21	30	32	33	50	54
+shiny	21	60	61
+short	21	100	102
+shorter	21	22	100	102
+shortest	21	22	100	102
+shy	21	30	32	33	40
+sick	21	30	32	70	72
+sicker	21	22	30	32	70	72
+sickest	21	22	30	32	70	72
+sickly	21	30	32	70	72
+sillier	21	22	30	31
+silliest	21	22	30	31
+silly	21	30	31
+similar*	21	22
+simple	21
+simpler	21	22
+simplest	21	22
+single	21	24	25
+sinister	21	30	32	34
+skinnier	21	22
+skinniest	21	22
+skinny	21
+sleepier	21	22	70	71
+sleepiest	21	22	70	71
+sleepy	21	70	71
+slender	21
+slight	21
+slow	21	100	101	103
+slower	21	22	100	101	103
+slowest	21	22	100	101	103
+small	21	80	83	100	102
+smaller	21	22	80	83	100	102
+smallest	21	22	80	83	100	102
+smart	21	30	31
+smarter	21	22	30	31
+smartest	21	22	30	31
+sober	21
+sociable	21	30	31	40	80	81
+soft	21	60	63
+softer	21	22	60	63
+softest	21	22	60	63
+solitary	21
+sooner	21	22	92	100	103
+soonest	21	22	92	100	103
+sore	21	70	72
+sorry	21	30	32	35
+sour	21	60
+special	21	30	31
+specific	21	50	55
+spicy	21	60
+spinal	21	70	71
+splendid	21	30	31
+square	21	60	61
+stiff	21	70	72
+stiffer	21	22	70	72
+stiffest	21	22	70	72
+stinky	21	30	32	60
+stormy	21
+straight	21	100	102
+straighter	21	22	100	102
+straightest	21	22	100	102
+strange	21	30	32
+strangest	21	22	30	32
+strict	21
+stricter	21	22
+strictest	21	22
+strong	21	30	31	80	83
+stronger	21	22	30	31	80	83
+strongest	21	22	30	31	80	83
+stupid	21	30	32	34
+stupider	21	22	30	32	34
+stupidest	21	22	30	32	34
+subsequent	21	100	103
+subtle	21
+successful	21	30	31	80	82	84	110
+successive	21	100	103
+sucky	21	30	32	34
+sudden	21	100	103
+sugary	21	60	70	74
+sunnier	21	22	30	31	60	61
+sunniest	21	22	30	31	60	61
+super	21	30	31	80	82
+supportive	21	30	31
+surprised*	21	30	31
+sweet	21	30	31	60	70	74
+sweeter	21	22	30	31	60	70	74
+sweetest	21	22	30	31	60	70	74
+swollen	21	70	72
+talkative	21	40
+tall	21	100	102
+taller	21	22	100	102
+tallest	21	22	100	102
+tart	21	60
+tastier	21	22	60	70	74
+tastiest	21	22	60	70	74
+tasty	21	60	70	74
+tedious	21	30	32
+tender	21	30	31	70	72
+terrible	21	30	32
+terrific	21	30	31
+terrified	21	30	32	33
+terrifying	21	30	32	33
+thankful	21	30	31
+thin	21	100	102
+thinner	21	22	100	102
+thinnest	21	22	100	102
+thirsty	21	70	71	74
+thriftier	21	22	113
+thriftiest	21	22	113
+thrifty	21	113
+tight	21	60	63
+tighter	21	22	60	63
+tightest	21	22	60	63
+tinier	21	22	80	83
+tiniest	21	22	80	83	100	102
+tiny	21	80	83	100	102
+tired	21	70	72
+tiring	21	70	72
+top	21	22	80	82	83	100	102
+tough	21	30
+tougher	21	22
+toughest	21	22
+tragic	21	30	32	35
+tribal	21	80	81
+trickier	21	22	30	32	34	50	51
+trickiest	21	22	30	32	34	50	51
+tricky	21	30	32	34	50	51
+trite	21	30	32
+trivial	21	30	32
+true	21	30	31	50	55
+truer	21	22	30	31
+truest	21	22	30	31	50	55
+trusty	21	30	31
+twitchy	21	30	32	33	70	72	100	101
+typical	21
+uglier	21	22	30	32	34
+ugliest	21	22	30	32	34
+ugly	21	30	32	34
+ultimate	21
+unattractive	21	30	32
+uncommon	21
+unexpected	21
+unfair	21	30	32
+unimportant	21	30	32	35	80	83
+unique	21	22
+unkind	21	30	32
+unknowing	21	50	54
+unknown	21	50	54
+unlucky	21	30	32
+unpleasant	21	30	32
+unqualified	21	80	83
+unsafe	21	30	32	80	85
+unsavory	21	30	32
+unwanted	21	50	53	80	83	85
+upbeat	21	30	31
+upper	21	80	83	100	102
+upright	21	100	102
+upset	21	30	32	33
+upsetting	21	30	32	33
+urban	21
+usual	21	100	103
+vague	21	50	54
+vaguer	21	22	50	54
+vaguest	21	22	50	54
+vain	21	30	32
+varied	21
+variety	21	22	25
+various	21	22	25
+vast	21	100	102
+vicious	21	30	32	34
+violent	21	30	32	34
+violet	21	60	61
+virtual	21
+warm	21	30	31	60	63
+warmer	21	22	30	31	60	63
+warmest	21	22	30	31	60	63
+watchful	21	60	61
+weak	21	30	32	70	72	80	83
+weaker	21	22	30	32	70	72	80	83
+weakest	21	22	30	32	70	72	80	83
+wealthier	21	22	30	31	80	83	113
+wealthiest	21	22	30	31	80	83	113
+wealthy	21	30	31	80	83	113
+weary	21	30	32	70	72
+weird	21	30	32
+weirder	21	22	30	32
+weirdest	21	22	30	32
+well-known	21	80	83
+wetter	21	22	60	63
+wettest	21	22	60	63
+white	21	60	61
+wicked	21	30	32	34
+wide	21	100	102
+wider	21	22	100	102
+widest	21	22	100	102
+wilder	21	22
+wildest	21	22
+willing	21	30	80	84
+windy	21
+wise	21	30	31	50	51	80	83
+wiser	21	22	30	31	50	51
+wisest	21	22	30	31	50	51
+wittier	21	22
+wittiest	21	22
+witty	21
+wobbly	21	100	101
+womanly	21	40	43
+wonderful	21	30	31
+world-class	21	80	83
+worried	21	30	32	33
+worse	21	22	30	32	80	85	91
+worst	21	22	30	32	80	85
+worthless	21	30	32	35	80	83
+worthwhile	21	30	31
+wrong	21	30	32	80	85
+wrongful	21	30	32
+wussy	21	80	83	120	121
+young	21	100	103
+younger	21	22	100	103
+youngest	21	22	100	103
+yummy	21	30	31	60	70	74
+wat	23	120	122
+wattt*	23	120	122
+what're	23	91
+whatre	23	91
+whatt*	23	120	122
+wut	23	120	122
+billion*	24
+doubl*	24	25
+dozen*	24
+eight*	24
+eleven	24
+fift*	24
+first	24	80	82	100	103
+firstly	24	100	103
+firsts	24	80	82	100	103
+five	24
+four*	24
+half	24
+hundred*	24
+infinit*	24	100	103
+million*	24
+nine*	24
+once	24	100	103
+one	24
+quarter*	24
+second	24
+seven*	24
+six*	24
+ten	24
+tenth	24
+third	24
+thirt*	24
+thousand*	24
+three	24
+trillion*	24
+twel*	24
+twent*	24
+twice	24
+two	24
+zero	24
+zillion*	24
+add	25	80	84	91
+added	25	80	84	90
+adding	25	80	84
+adds	25	80	84	91
+all	25	50	55
+allot	25	50	54
+alot	25	50	54
+amount	25
+amounts	25
+any	25	50	54
+approximat*	25	50	54
+bit	25
+bits	25
+both	25	100	102
+bunch	25
+chapter	25
+couple	25
+each	25
+entire*	25	50	55
+every	25	50	55
+group*	25	40	80	81
+inequal*	25	50	56
+lot	25	50	54
+lotof	25	50	54
+lots	25	50	54
+lotsa	25	50	54
+lotta	25	50	54
+majority	25
+many	25
+much	25
+mucho	25
+multiple	25
+nada	25
+part	25
+partly	25	50	54
+percent*	25
+piece	25
+pieces	25
+plenty	25
+remaining	25
+sampl*	25
+section	25	100	102
+segment*	25	100	102
+series	25
+several*	25
+singles	25
+singly	25
+some	25	50	54
+ton	25
+tons	25
+total	25	50	55
+triple*	25
+tripling	25
+whole	25
+(:	30	31	120	122
+):	30	32	120	122
+:(	30	32	120	122
+:)	30	31	120	122
+abandon*	30	32	35
+abuse*	30	32	34
+abusi*	30	32	34
+accepta*	30	31	50	51
+accepting	30	31	50	51
+ache*	30	32	60	63	70	72
+aching*	30	32	60	63	70	72
+actively	30	31
+admir*	30	31
+ador*	30	31
+advantag*	30	31	80	82	84
+adventur*	30	31	80	84
+advers*	30	32
+affection*	30	31
+aggravat*	30	32	34	50	52
+aggress	30	32	34
+aggressed	30	32	34
+aggresses	30	32	34
+aggressing	30	32	34
+aggression*	30	32	34
+aggressively	30	32	34
+aggressor*	30	32	34
+agitat*	30	32	34
+agoniz*	30	32	35
+agony	30	32	35
+agree	30	31	120	123
+agreeableness	30	31
+agreeably	30	31
+agreed	30	31
+agreeing	30	31
+agreement*	30	31
+agrees	30	31
+alarm*	30	32	33	80	85
+alright*	30	31	120	123
+amaze*	30	31
+amazingly	30	31
+amor*	30	31
+amus*	30	31	111
+anger*	30	32	34
+anguish*	30	32
+annoy	30	32	34
+annoyed	30	32	34
+annoys	30	32	34
+antagoni*	30	32	34
+anxiety	30	32	33
+anxiously	30	32	33
+anxiousness	30	32	33
+aok	30	31	120	123
+apath*	30	32
+appall*	30	32
+appreciat*	30	31	50	51
+apprehens*	30	32	33	50	54	80	85
+approv*	30	31	80	83
+argh*	30	32	34
+argu*	30	32	34	40
+arrogan*	30	32
+asham*	30	32	33	80	83
+assault*	30	32	34	80	83
+asshole*	30	32	34	70	71	120	121
+assur*	30	31	50	55
+attack*	30	32	34	80	83
+attracted	30	31	90
+attracting	30	31
+attraction	30	31
+aversi*	30	32	33	80	85
+avoid*	30	32	33	80	85
+award*	30	31	80	82	84	110
+awkward	30	32	33	40
+bad	30	32	80	85
+badly	30	32
+bashful*	30	32
+bastard*	30	32	34	120	121
+battl*	30	32	34	80	83
+beaten	30	32	34	80	82	83
+beautify	30	31	60	61
+beauty	30	31	60	61
+beloved	30	31	40	42
+benefic*	30	31
+benefit	30	31	80	84
+benefits	30	31	80	84	110
+benefitt*	30	31
+benevolen*	30	31
+benign*	30
+bereave*	30	32	35	115
+bestie	30	31	40	42
+besties	30	31	40	42
+bitch*	30	32	34	120	121
+bitterly	30	32	34	60
+bitterness	30	32	34	60
+bittersweet	30	60
+blam*	30	32	34	40
+bless*	30	31	114
+bliss*	30	31
+bold	30	31	80	84
+boldly	30	31
+bonus*	30	31	80	82	84	113
+bore*	30	32
+bother*	30	32	34
+brave	30	31
+bravery	30	31
+braves	30	31
+bright	30	31	60	61
+brilliance*	30	31
+brilliantly	30	31
+brutal*	30	32	34
+burden*	30	32
+calming	30	31
+calmly	30
+carefree	30	31
+careless*	30	32
+casual	30	111
+casually	30
+certain*	30	31	50	55
+challeng*	30	31	80	82	110
+champ*	30	31	80	82	83	110
+charit*	30	31	113
+charm*	30	31
+cheat*	30	32	34	80	82
+cheer	30	31
+cheers	30	31
+cherish*	30	31
+chuckl*	30	31
+coldly	30	32
+comed*	30	31	111
+comfort	30	31
+comfortably	30	31
+comforting	30	31
+comforts	30	31
+compassion*	30	31	40	80	81
+complain*	30	32	40
+compliment*	30	31	40	80	81
+concerned	30
+condemn*	30	32	80	83
+confidence	30	31	50	55	80	82	83	84
+confident	30	31	50	55	80	82	83	84
+confidently	30	31	50	55	80	82	83	84
+confront*	30	32	34
+confuse	30	32	33	50	54
+confused	30	32	33	50	54
+confusedly	30	32	33
+confusing	30	32	33	50	54
+contempt*	30	32	34
+contented*	30	31
+contentment	30	31
+contradic*	30	32	34	40
+courag*	30	31
+crap	30	32	34	70	71	120	121
+creation	30	31	50	52	80	82
+creations	30	31	50	52	80	82
+creativity	30	31	50	52	80	82
+credit*	30	31	110	113
+critical	30	32	34
+critici*	30	32	34
+crude	30	32
+crudely	30	32
+cruelty	30	32	34
+crushed	30	32	35	80	83
+cunt*	30	32	34	120	121
+curse	30	32
+cut	30	32
+cutie*	30	31	40	42
+cynic*	30	32	34
+damag*	30	32
+damn*	30	32	34	120	121
+danger	30	32	80	85
+dangerously	30	32	80	85
+dangers	30	32	80	85
+daring	30	31	80	84
+darlin*	30	31	40	42
+daze*	30	32
+dear	30	31	40	42	80	81
+dearly	30	31	80	81
+decay*	30	32	100	103
+decent	30	31
+defeat*	30	32	80	82	83
+defect*	30	32
+defenc*	30	32
+defense	30	32	80	85
+defensively	30	32
+defensiveness	30	32
+degrad*	30	32	80	83
+delectabl*	30	31	60
+delicate*	30	31
+delicious*	30	31	60	70	74
+deligh*	30	31
+demean*	30	32	80	83
+demot*	30	32	80	82	110
+denial	30	32
+depress*	30	32	35
+depriv*	30	32	35
+desir*	30	31	50	53	80	84
+despair*	30	32	35
+desperat*	30	32	33
+despis*	30	32	34
+destroy*	30	32	34	80	83
+destruct	30	32	34
+destructed	30	32	34	90
+destruction	30	32	34	80	83
+destructiveness	30	32	34
+determina*	30	31	50	51	80	82
+determined	30	31	50	51	80	82
+devastat*	30	32	35
+devil*	30	32	114
+devot*	30	31
+difficulties	30	32	80	85
+difficulty	30	32	80	85
+dignified	30	31
+dignifies	30	31
+dignifying	30	31
+dignity	30	31
+disadvantag*	30	32	80	83	85
+disagree*	30	32
+disappoint*	30	32	35
+disaster*	30	32	80	85
+discomfort*	30	32	33
+discourag*	30	32	35
+disgrac*	30	32	80	83
+disgust*	30	32
+dishearten*	30	32	35
+dishonor*	30	32	80	83
+disillusion*	30	32	35	50	51
+disliking	30	32
+dismay*	30	32
+disreput*	30	32	80	83
+diss	30	32	120	122
+dissatisf*	30	32
+distract*	30	50	51
+distraught	30	32	33
+distress*	30	32	33
+distrust*	30	32	34	80	85
+disturb*	30	32	33
+divin*	30	31	114
+domina*	30	32	34	80	82	83
+doom*	30	32	35	80	85	114
+dork*	30	32	120	121
+doubt*	30	32	33	50	54	80	85
+dread*	30	32	33	80	85
+dumbass*	30	32	34	120	121
+dummy	30	32	34	80	83	120	121
+dump*	30	32	100	101
+dwell*	30	32	33
+eagerly	30	31	80	84
+eagerness	30	31	80	84
+ease*	30	31
+easily	30	31
+easiness	30	31
+ecsta*	30	31
+egotis*	30	32
+elegan*	30	31
+embarrass*	30	32	33	40
+emotion	30
+emotions	30
+emptiness	30	32	35	80	82	100	102
+encourag*	30	31	40	80	81
+enemie*	30	32	34	40
+enemy*	30	32	34	40
+energ*	30	31
+engag*	30	31	40
+enjoy*	30	31
+enrag*	30	32	34
+entertain*	30	31	111
+enthus*	30	31	80	84
+envie*	30	32	34
+envy*	30	32	34
+excel	30	31	80	82	110
+excellence	30	31	110
+excellent	30	31	80	82	110
+excellently	30	31
+excitedly	30	31	80	84
+excitement	30	31	80	84
+excruciat*	30	32
+exhaust*	30	32	70	72
+fab	30	31	120
+fabulously	30	31
+fabulousness	30	31
+fail*	30	32	35	80	82	83	85	110
+faith*	30	31	114
+fantasi*	30	31	111
+fantastically	30	31
+fantasy	30	31	111
+fatal*	30	32	115
+fatigu*	30	32	35	70	72
+fault*	30	32	80	85
+favor	30	31
+favors	30	31
+favour*	30	31
+fear	30	32	33
+feared	30	32	33
+fearful*	30	32	33
+fearing	30	32	33
+fearless*	30	31	80	84
+fears	30	32	33
+feroc*	30	32	34
+festiv*	30	31	111
+feud*	30	32	34	40
+fiesta*	30	31	111
+fight*	30	32	34	40
+fired	30	32	110
+flatter*	30	31	40
+flawless*	30	31
+flexib*	30	31	60	63
+flirt	30	31	40	80	81
+flunk*	30	32	35	80	82	85
+foe*	30	32	34	40
+fondly	30	31
+fondness	30	31
+fool	30	32	40
+fooled	30	32	40	90
+fools	30	32	40
+forbade	30	32	80	83
+forbidding	30	32
+forgave	30	31	40	50	51
+forgiv*	30	31	40	50	51
+frantic*	30	32	33
+freak*	30	32	120	121
+free-think*	30	31
+freed*	30	31
+freeing	30	31
+freely	30	31
+frees*	30	31
+freethink*	30	31
+friendly	30	40	42	80	81
+fright*	30	32	33
+frustrat*	30	32	34
+fucker*	30	32	34	120	121
+fuckface*	30	32	34	120	121
+fuckh*	30	32	34	120	121
+fucktard	30	32	34	120	121
+fucktwat*	30	32	34	120	121
+fuckwad*	30	32	34	120	121
+fume*	30	32	34
+fuming	30	32	34
+funnies	30	31	111
+funnily	30	31
+funniness	30	31
+furious*	30	32	34
+fury	30	32	34
+geek*	30	32	120	121
+genero*	30	31	40
+gently	30	31
+giggl*	30	31
+giver*	30	31	40
+gladly	30	31
+glamor*	30	31
+glamour*	30	31
+gloom	30	32	35	60	61
+gloomily	30	32	35	60	61
+gloominess	30	32	35	60	61
+gloomy	30	32	35	60	61
+glori*	30	31	80	83
+glory	30	31	80	82	83
+goddam*	30	32	34	120	121
+good	30	31	80	84
+goodness	30	31
+gorgeously	30	31
+gorgeousness	30	31
+gossip*	30	32	40	80	81
+grace	30	31
+graced	30	31	90
+graceful*	30	31
+graces	30	31
+graci*	30	31
+grande*	30	31
+gratef*	30	31
+grati*	30	31
+grave*	30	32	35	115
+greatness	30	31	80	83
+greed*	30	32	34	80	83	84	113
+grief	30	32	35	115
+griev*	30	32	35	115
+grimac*	30	32
+grimly	30	32	35
+grin	30	31
+grinn*	30	31
+grins	30	31
+grossed	30	32	90
+grossly	30	32
+grossness	30	32
+grouch*	30	32	34
+grr*	30	32	34
+grudg*	30	32	34	40
+guilt	30	32	33
+guilt-trip*	30	32	33
+ha	30	31	120	122
+hah	30	31	120	122
+haha*	30	31	120	122
+handsomely	30	31
+hangover*	30	32	70	72
+happily	30	31
+happiness	30	31
+harass*	30	32	34
+harm	30	32
+harmed	30	32	90
+harmfully	30	32
+harmfulness	30	32
+harmless*	30
+harmon*	30	31	60	62
+harsh	30	32	60	63
+hateful*	30	32	34
+hater*	30	32	34	120
+hatred	30	32	34
+hazard*	30	32	80	85
+healer*	30	31	70	72
+heartbreak*	30	32	35
+heartbroke*	30	32	35
+heartless*	30	32	34
+heartwarm*	30	31
+heaven*	30	31	114
+heh*	30	31	120	122
+hell	30	32	34	114	120	121
+helper*	30	31	40	80	83
+helpfully	30	31	40
+helpfulness	30	31	40	80	81
+helping	30	31	40
+helpless*	30	32	35	80	83
+hero	30	31
+hero's	30	31
+heroes	30	31
+heroic*	30	31
+heroine*	30	31	40	43
+heroism	30	31
+hesita*	30	32	33	50	54	80	85
+hilarious	30	31
+hoho*	30	31
+homesick*	30	32	35	112
+honestly	30	31
+honesty	30	31
+honor*	30	31	80	82	83
+honour*	30	31	80	82	83
+hooray	30	31
+hopeless*	30	32	35	80	83
+horribly	30	32	33
+horrid*	30	32	33
+horror*	30	32	33
+hostil*	30	32	34	40
+hug	30	31	40	80	81
+hugg*	30	31	80	81
+hugs	30	31	80	81
+humiliat*	30	32	33	34	80	83
+humor*	30	31
+humour*	30	31
+hungover	30	32	70	72
+hurra*	30	31
+hurt*	30	32	35	60	63
+ideal*	30	31	50	53	80	82
+idiot*	30	32	34	120	121
+ignorable	30	32
+ignoramus	30	32	120	121
+ignorant	30	32	80	83
+immoral*	30	32	114
+impatien*	30	32	33
+impersonal	30	32	40
+impolite*	30	32	40
+importance	30	31	80	82
+important	30	31	80	83
+importantly	30	31
+impress*	30	31	40
+improve*	30	31	80	82
+improving	30	31	80	82
+inadequa*	30	32	33	35	50	53	80	82
+incentive*	30	31	80	82
+incompeten*	30	32	80	82	83
+indecis*	30	32	33	50	54
+ineffect*	30	32	80	82
+inferiority	30	32	35	80	83
+inhibit*	30	32	33	80	85
+innocen*	30	31
+insecur*	30	32	33	80	83
+insincer*	30	32
+inspir*	30	31	50	51
+insult*	30	32	34	40
+intellect*	30	31
+intelligence	30	31
+intelligent	30	31
+interest	30	31
+interested	30	31
+interesting	30	31
+interests	30	31
+interrup*	30	32	34	40
+intimidat*	30	32	34
+invigor*	30	31	80	84
+irrational*	30	32	33
+irrita*	30	32	33
+isolat*	30	32	35
+jaded	30	32
+jealous	30	32	34
+jealousies	30	32	34
+jealously	30	32	34
+jealousy	30	32	34
+jerk	30	32	34
+jerked	30	32	34
+jerks	30	32	34
+joke*	30	31	111
+joking	30	31	111
+jolly	30	31
+joy*	30	31
+keen*	30	31
+kidding	30	31	40
+kill*	30	32	34	115
+kind	30	31
+kindly	30	31
+kindn*	30	31
+kiss*	30	31	80	81
+laidback	30	31	111
+lame	30	32	35
+lamely	30	32	35
+lameness	30	32	35
+laugh*	30	31	60	62
+lazy	30	32	80	82
+liabilit*	30	32	50	53	80	85
+liar*	30	32	34	40
+libert*	30	31
+lies	30	32	34
+(do) like	30	31
+(don't) like	30	31
+(did) like	30	31
+(didn't) like	30	31
+(will) like	30	31
+(won't) like	30	31
+(does) like	30	31
+(doesn't) like	30	31
+(did not) like	30	31
+(will not) like	30	31
+(do not) like	30	31
+(does not) like	30	31
+(would not) like	30	31
+(should not) like	30	31
+(could not) like	30	31
+(53) like*	30
+likeab*	30	31	40
+livel*	30	31	70	72
+lmao*	30	31	120	121	122
+lmfao*	30	31	120	121	122
+lol	30	31	120	122
+lone	30	32	35
+loneliness	30	32	35
+lonely	30	32	35
+loner*	30	32	35
+longing*	30	32	35
+loser*	30	32	35	80	82	83
+loss*	30	32	35	80	82	85
+lous*	30	32
+love	30	31	40	70	80	81
+loved	30	31	40	70	80	81
+loveless	30	32	80	81
+lovely	30	31
+lover*	30	31	40	42	70	73	80	81
+loves	30	31	40	70	80	81	91
+loving*	30	31	40	80	81
+low	30	32	35	80	83	100	102
+lowli*	30	32	35	80	83	100	102
+lowly	30	32	35	80	83	100	102
+loyalt*	30	31	80	81
+luck	30	31	50	54	80	84
+lucked	30	31	50	54	90
+luckily	30	31	50	54
+luckless*	30	32
+ludicrous*	30	32	34
+luv	30	31	40	80	81	120	122
+mad	30	32	34
+maddening*	30	32	34
+magnific*	30	31
+maniac*	30	32	34
+masochis*	30	32
+melanchol*	30	32	35
+merit*	30	31
+merr*	30	31
+mess	30	32
+miser*	30	32	33	35
+mistak*	30	32	50	53
+mocker*	30	32	34
+molest*	30	32
+mooch*	30	32	40
+mood	30
+moodi*	30	32
+moods	30
+moody	30	32
+moron*	30	32	34	80	83	120	121
+mourn*	30	32	35	115
+murder*	30	32	34	115
+nag*	30	32	34
+nast*	30	32	34
+neatly	30
+neatness	30	31
+neglect*	30	32	35
+nerd*	30	32
+nervously	30	32	33
+nervousness	30	32	33
+neurotic*	30	32	33
+nicely	30	31
+niceness*	30	31
+niceties	30	31
+nicety	30
+nightmar*	30	32
+numbed	30	32	70	72
+numbing	30	32	70	72
+numbness	30	32	70	72
+numbs	30	32	70	72
+nurtur*	30	31
+obnoxious*	30	32	34
+obsess*	30	32	33
+offence*	30	32	34
+offend*	30	32	34
+offense	30	32	34
+offenses	30	32	34
+offensive	30	32	34
+ok	30	31	120	123
+okay	30	31	120	123
+okey*	30	31	120	123
+open-minded*	30	31
+openminded*	30	31
+openness	30	31
+opportun*	30	31	80	82	84
+optimal*	30	31	80	84
+optimism	30	31	80	84
+outrag*	30	32	34
+overwhelm*	30	32	33	35
+pain	30	32	60	63	70	72
+pained	30	32	60	63	70	72
+painf*	30	32	60	63	70	72
+painl*	30	70	72
+pains	30	32	60	63	70	72
+palatabl*	30	60
+panic*	30	32	33
+paradise*	30	31	114
+paranoi*	30	32	33
+partie*	30	31	40	80	81	111
+party*	30	31	40	80	81	111
+passion*	30	31	70	73
+pathetically	30	32	35	80	83
+peace	30	31
+peacefully	30	31
+peacekeep*	30	31
+peacemak*	30	31
+peculiar*	30	32
+perfecting	30	31	50	55	80	82	84
+perfection	30	31	50	55	80	82	84
+perfectly	30	31	50	55	80	82	84
+perv	30	32	70	73
+perver*	30	32	70	73
+pessimis*	30	32	35	80	85
+pest*	30	32	34
+petrif*	30	32	33
+phobi*	30	32	33	70	72
+piss*	30	32	34	70	71	120	121
+pitifully	30	32	35	80	83
+pity*	30	32	35	80	83
+play	30	31	111
+playfully	30	31	111
+playfulness	30	31	111
+plays	30	31	111
+pleasant*	30	31
+please*	30	31
+pleasing	30	31
+pleasur*	30	31
+poison*	30	32	34	70	72
+politely	30	31	40
+poorly	30	32	80	83	113
+poorness*	30	32	80	83	113
+populari*	30	31
+positively	30	31	50	55	80	84
+positives	30	31	50	55	80	84
+positivi*	30	31	50	55	80	84
+powerless*	30	32	80	82	83
+prais*	30	31	40	80	82
+precious*	30	31
+prejudic*	30	32	34
+pressur*	30	32	33
+pretty	30	31	50	54
+prick*	30	32	34	70	71	120	121
+pride	30	31	80	82
+privileg*	30	31	80	83
+prize*	30	31	80	82	84
+problem*	30	32	50	53	80	85
+profit*	30	31	80	84	110	113
+promise*	30	31	50	55
+promising	30	31	92
+protest	30	32	34
+protests	30	32	34
+proud	30	31	80	82
+proudly	30	31	80	82
+puk*	30	32	70	72
+punish*	30	32	34	80	83
+pushy	30	32	34	80	83
+queas*	30	32	70	72
+radian*	30	31
+rage*	30	32	34
+raging	30	32	34
+rancid*	30	32	60
+rape*	30	32	34	70	73
+raping	30	32	34	70	73
+rapist*	30	32	34	70	73
+readiness	30	31
+ready	30	31
+reassur*	30	31	40
+rebel*	30	32	34	50	51	80	83
+reek*	30	32	60
+regret*	30	32	35	50	53
+reinvigor*	30	31
+reject*	30	32	35	80	83
+rejoice*	30	31
+relax*	30	31	111
+relief	30	31
+reliev*	30	31
+reluctan*	30	32	33	80	85
+remorse*	30	32	35
+repress*	30	32	33
+resent*	30	32	34
+resign*	30	32	35
+resolv*	30	31	50	51	80	82
+respect	30	31	80	83
+respected	30	31	80	83
+respectfully	30	31	80	83
+restless*	30	32	33
+revenge*	30	32	34
+reward*	30	31	80	82	84
+riches	30	31	80	83	113
+ridicul*	30	32	34
+rigidity	30	32	33
+rigidly	30	32	33
+risk*	30	32	33	80	85
+rofl*	30	31	120	122
+romanc*	30	31	80	81
+romantic*	30	31	80	81
+rudely	30	32	34
+ruin*	30	32	35
+sadly	30	32	35
+sadness	30	32	35
+safely	30	31	80	85
+safety	30	31	80	85
+sarcas*	30	32	34
+satisf*	30	31
+savage*	30	32	34
+scare	30	32	33
+sceptic*	30	32	34
+scream*	30	32	60	62
+screw*	30	32	34	70	73	120	121
+secur*	30	31	80	85
+selfish*	30	32
+sentimental*	30	31
+seriousness	30	32
+severe*	30	32
+shake*	30	32	33	100	101
+shaki*	30	32	33
+shame*	30	32	33	80	83
+share	30	31	40	80	81	91
+shares	30	31	40	80	81	91
+shit*	30	32	34	70	71	120	121
+shock*	30	32
+shyly	30	32	33	40
+shyness	30	32	33	40
+sicken*	30	32
+sin	30	32	114
+sincer*	30	31
+sins	30	32	114
+skeptic*	30	50	51	54
+slut*	30	32	70	73	120	121
+smartly	30	31
+smh	30	32	120	122
+smil*	30	31
+smother*	30	32	34
+smug*	30	32
+snob*	30	32	34	40	80	83
+sociability	30	31	40	80	81
+solemn*	30	32	35
+sorrow*	30	32	35
+soulmate*	30	31	40	42	80	81
+spite*	30	32	34
+splendidly	30	31
+splendor	30	31
+stale	30	32
+stammer*	30	32
+stank*	30	32	60
+startl*	30	32	33
+steal*	30	32	80	84
+stench*	30	32	60
+stink	30	32	60
+strain*	30	32	33
+strength*	30	31	80	83
+stress*	30	32	33
+strongly	30	31	80	83
+struggl*	30	32	33	80	83
+stubborn*	30	32	34
+stunk	30	32	60	90
+stunned	30
+stupidity	30	32	34
+stupidly	30	32	34
+stutter*	30	32	60	62
+succeed*	30	31	80	82	84	110
+success	30	31	80	82	84	110
+successes	30	31	80	82	84	110
+successfully	30	31	80	82	84	110
+sucker*	30	32	34
+sufferer*	30	32	35
+sunny	30	31	60	61
+sunshin*	30	31	60	61
+superb*	30	31	80	82
+superior	30	31	80	83	100	102
+superiority	30	80	83
+supported	30	31	90
+supporter*	30	31
+supporting	30	31
+supports	30	31	91
+suprem*	30	31
+sure*	30	31	50	55
+surprise	30	31
+surprising*	30	31
+suspicio*	30	32	33	50	51
+sweetheart*	30	31	40	42	80	81
+sweetie*	30	31	40	42	80	81
+sweetly	30	31
+sweetness*	30	31	60	70	74
+sweets	30	31	60	70	74
+talent*	30	31
+tantrum*	30	32	34
+tears	30	32	35
+teas*	30	32	34	40
+teehe*	30	31	120	122
+temper	30	32	34
+tempers	30	32	34
+tenderly	30	31	70	72
+tense	30	32	33
+tensely	30	32	33
+tension*	30	32	33
+terribly	30	32
+terrifically	30	31
+terror*	30	32	33	80	83
+thankfully	30	31
+thanx	30	31	120	122
+thief	30	32
+thiev*	30	32
+thnx	30	31	120	122
+thoughtful*	30	31
+threat*	30	32	33	34	80	83	85
+thrill*	30	31
+thx	30	31	120	122
+timid*	30	32	33
+toleran*	30	31
+tortur*	30	32	34
+traged*	30	32	35
+tragically	30	32	35
+tranquil*	30	31
+trauma*	30	32
+treasur*	30	31	113
+treat	30	31
+trembl*	30	32	33	100	101
+trick	30	32	34	50	51
+tricks	30	32	34	50	51
+triumph*	30	31	80	82	84
+troubl*	30	32	80	85
+trust	30	31	40	80	85	91
+trustworthiness	30	31	80	85
+trustworthy	30	31	80	85
+truth*	30	31	50	55
+turmoil	30	32	33
+ty	30	31	120	122
+ugh	30	32	120	124
+unaccept*	30	32	50	51	80	83
+uncertain*	30	32	33	50	54
+uncomfortabl*	30	32	33
+uncontrol*	30	32	33
+undesir*	30	32	50	53	80	85
+uneas*	30	32	33
+unfortunate*	30	32
+unfriendly	30	32
+ungrateful*	30	32
+unhapp*	30	32	35
+unimpress*	30	32
+unlov*	30	32
+unprotected	30	32	80	85
+unsettl*	30	32	33	50	54
+unsuccessful*	30	32	35	80	82
+unsure*	30	32	33	50	54	80	85
+unwelcom*	30	32
+uptight*	30	32	33
+useful	30	31
+usefully	30	31
+usefulness	30	31
+useless	30	32	35	80	83
+uselessly	30	32	35
+uselessness	30	32	35
+valuabl*	30	31
+value	30	31
+valued	30	31
+values	30	31
+vanity	30	32
+viciously	30	32	34
+viciousness	30	32	34
+victim*	30	32	80	83
+vigor*	30	31
+vigour*	30	31
+vile	30	32	34
+villain*	30	32	34
+violat*	30	32	34
+violence	30	32
+violently	30	32	34
+virtue*	30	31
+virtuo*	30	31
+vital*	30	31	70	72
+vomit*	30	32	70	72
+vulnerab*	30	32	33	80	83
+war	30	32	34	80	83	115
+warfare*	30	32	34	80	83	115
+warmly	30	31	60	63
+warmth	30	31	60	63
+warn*	30	32	80	85
+warring	30	32	34	80	83
+wars	30	32	34	80	83	115
+weakling	30	32	70	72	80	83
+weakly	30	32	70	72	80	83
+wealth	30	31	80	83	113
+weapon*	30	32	34
+weirdly	30	32
+weirdness	30	32
+weirdo	30	32
+weirdos	30	32
+welcom*	30	31	40	80	81
+wellbeing	30	31	70	72
+wellness	30	31	70	72
+whore*	30	32	70	73	120	121
+wickedly	30	32	34
+wimp*	30	32	80	83
+win	30	31	80	82	83	84
+winn*	30	31	80	82	83	84
+wins	30	31	80	82	83	84
+wisdom	30	31	50	51
+wisely	30	31	50	51
+witch*	30	32	40	43
+woe*	30	32	35
+wonderfully	30	31
+worrier	30	32	33
+worries	30	32	33	91
+worsening	30	32
+worship*	30	31	80	83	114
+wow*	30	31
+wrongdoing	30	32
+wronged	30	32
+wrongly	30	32
+wrongness	30	32
+wrongs	30	32
+yay*	30	31	120	123
+yearn*	30	32	35	50	53
+yuck	30	32
+yum	30	31	60	70	74
+(discrep) like*	31
+accomplice*	40	42	80	81
+acquainta*	40	42
+adult	40
+adults	40
+advice	40
+advis*	40	110
+affair*	40
+ally	40	42	80	81
+amigo*	40	42	80	81
+anonymous*	40
+apolog*	40	80	83
+armies	40	80	83
+army	40	80	83
+assembl*	40
+aunt*	40	41	43
+awkwardness	40
+babe*	40	42
+babies	40	41
+baby	40	41
+bachelor	40	44
+bachelor'*	40	44
+bachelorette	40	43
+bachelors	40	44
+bae	40	42	80	81	120	122
+band	40	111
+bands	40	111
+banter*	40	80	81
+bb	40	120	122
+bby	40	120	122
+bcc	40
+beau	40	42	44
+bestfriend*	40	42	80	81
+bf	40	42	44	80	81	120	122
+bf's	40	42	44
+bff*	40	42	80	81	120	122
+bfs	40	42	44	80	81	120	122
+boi	40	44	120	122
+boy	40	44
+boy's	40	44
+boyfriend*	40	42	44	80	81
+boyhood	40	44
+boyish	40	44
+boys	40	44
+breakup	40	80	81
+bride*	40	43
+bro	40	41	44	80	81	120
+bro'*	40	41	44	80	81
+bros	40	41	44	80	81
+brother*	40	41	44	80	81
+bruh	40	44	120	122
+bud	40	42	80	81
+buddies	40	42	80	81
+buddy*	40	42	44	80	81
+bye	40	100	103
+call	40
+caller*	40
+calling	40
+calls	40
+cc	40	120	122
+cced	40	90	120	122
+cc'd	40	90	120	122
+cc'ed	40	90	120	122
+celebrat*	40	80	81	82	111
+chap	40	42	44
+chat*	40	80	81	111
+chick	40	43
+chick'*	40	43
+chicks	40	43
+child	40	80	83
+child'*	40	80	83
+children*	40	80	83
+chit-chat*	40	80	81
+chitchat*	40	80	81
+chum	40	42	80	81
+chums	40	42	80	81
+citizen	40
+citizen'*	40
+citizens	40
+classmate	40	42	110
+classmates	40	42	110
+clique*	40	42	80	81
+co-work*	40	110
+colleague*	40	42	80	81	110
+coma*	40	42	70	72
+comment*	40
+commun*	40	80	81
+compadre*	40	42	80	81
+companion*	40	42	80	81
+company	40	110
+comrad*	40	42	80	81
+confess*	40	50	51	114
+confidant*	40	42	80	81
+congregat*	40	80	81
+consult*	40	110
+contact	40	42
+contacts	40	42
+convers*	40	80	81
+counc*	40	110
+couns*	40	110
+courtship	40	80	81
+cousin*	40	41	80	81
+cowboy*	40	44
+cowgirl*	40	43
+cowork*	40	110
+crew	40	42	80	81	110
+crowd*	40
+cultur*	40
+dad	40	41	44
+dad's	40	41	44
+daddies	40	41	44
+daddy	40	41	44
+daddy's	40	41	44
+dads	40	41	44
+dame*	40	43
+damsel*	40	43
+dance	40	80	81	100	101	111
+dances	40	80	81	100	101	111
+date	40	42	100	103
+dating	40	80	81	100	103
+daughter*	40	41	43
+dawg*	40	42	44	120	122
+debate	40
+dilf*	40	44	70	73	120	121	122
+disclo*	40	50	51
+discuss*	40
+divorc*	40	41
+duchess*	40	43
+dude*	40	42	120
+duke*	40	44
+e-mail	40
+e-mails	40
+email	40
+emails	40
+ex	40	120
+ex-bf*	40	42
+ex-boyfriend*	40	42
+ex-gf*	40	42
+ex-girlfriend*	40	42
+exbf*	40	42	44	120	122
+exboy*	40	42	44	80	81
+excus*	40
+exes	40
+exgf*	40	42	43	120	122
+exgirl*	40	42	43
+exhusb*	40	41	44
+express*	40	70	74	111
+exwife*	40	41	43
+exwive*	40	41	43
+facebook	40	80	81	111
+fam	40	41	80	81	120	122
+families	40	41	80	81	111	112
+family	40	41	80	81	111	112
+farewell	40
+father*	40	41	44
+fb	40	80	81	120	122
+fella	40	44
+fellow	40	42	44
+fellow's	40	42	44
+fellows	40	42	44
+fellowship*	40	80	81
+females	40	43
+femininity	40	43
+femme*	40	43
+fiance	40	41	42	44	80	81
+fiance's	40	41	42	44	80	81
+fiancee*	40	41	42	43	80	81
+fiances	40	42	80	81
+folks	40	41
+follower*	40	42	80	83
+formal	40
+forwarded	40	90	100	101	102	103
+frenem*	40	120	122
+friend	40	42	80	81
+friends	40	42	80	81
+fwb	40	42	70	73	80	81	120	122
+gal	40	43
+gals	40	43
+game*	40	80	81	111
+gang	40	42	80	81
+gangs	40	42	80	81
+gather*	40	80	81
+gent	40	44
+gentlem*	40	44
+gentlewom*	40	43
+gents	40	44
+gf*	40	42	43	80	81	120	122
+girl	40	43
+girl's	40	43
+girlfriend*	40	42	80	81
+girlh*	40	43
+girli*	40	43
+girls*	40	43
+goddess*	40	43	80	83	114
+godfather*	40	41	44
+godmother	40	41	43
+godparent	40	41
+goodbye	40
+gramp*	40	41	44
+grandchil*	40	41
+granddad*	40	41	44
+granddau*	40	41	43
+grandfath*	40	41	44
+grandkid*	40	41
+grandm*	40	41	43
+grandpa*	40	41	44
+grandson*	40	41	44
+granny	40	41	43
+greet*	40	80	81
+grl*	40	43	120	122
+groom'*	40	44
+grown-up*	40	80	83
+grownup*	40	80	83
+guest*	40	42
+gurl*	40	43	120	122
+guy*	40	42	44
+handshake	40	80	81
+hangout*	40	80	81	111
+he-*	40	44
+hearing	40	60	62
+hello*	40	80	81
+help	40	80	81	83
+hey	40	120
+hi	40	80	81
+hipster	40
+homie	40	42	80	81
+honey	40	42	60
+honeymoon*	40	41	80	81
+hottie	40	42
+househusband*	40	44	112
+housewi*	40	43	112
+hubby	40	41	44	80	81
+human*	40
+husband*	40	41	44	80	81
+in-law*	40	41
+individual*	40
+infant	40
+infant's	40
+infants*	40
+inlaw*	40	41
+inquir*	40	50	51
+instagram	40	80	81	111
+interact*	40	80	81
+interpersonal*	40
+interview*	40	110
+involv*	40
+kegger*	40	111
+kid	40	80	83
+kid'*	40	80	83
+kids*	40
+kik	40	120	122
+kin	40	41	80	81
+king	40	44	80	83
+king's	40	44	80	83
+kingl*	40	44	80	83
+kings	40	44	80	83
+knight*	40	44
+lad	40	44
+ladies	40	43
+lady	40	43
+lady's	40	43
+language*	40
+lass	40	43
+lassie	40	43
+leader*	40	80	82	83	110
+lesbian*	40	43	70	73
+letter	40
+listener*	40	60	62
+locals	40	100	102
+ma	40	41	43
+ma'am	40	43	80	83
+ma's	40	41	43
+maam	40	43	80	83
+madam	40	43	80	83
+madame*	40	43	80	83
+mademoiselle*	40	43
+maid	40	43	80	83	112
+maid's	40	43	80	83	112
+maiden	40	43
+maids	40	43	80	83	112
+mail	40
+male	40	44
+male's	40	44
+males	40	44
+mam	40	43	80	83
+mama	40	41	43
+man	40	44
+man's	40	44
+manly	40	44
+manners	40
+marriag*	40	41	80	81
+marrie*	40	41	80	81
+marry	40	41	80	81
+masculinity	40	44
+mate	40	42	80	81
+mate's	40	42	80	81
+maternity	40	41	43	70	72
+mates	40	42	80	81
+matriarch*	40	43	80	83
+meeting*	40	110
+member*	40	80	81
+men	40	44
+men'*	40	44
+mens	40	44
+mention*	40
+message	40	80	81
+messaged	40	80	81	90
+messages	40	80	81
+milf*	40	43	70	73	120	121	122
+mimi	40	41	43
+mimi'*	40	41	43
+mimis	40	41	43
+missus	40	43	80	83
+mister	40	44	80	83
+mistres*	40	43
+mom	40	41	43
+mom's	40	41	43
+momma*	40	41	43
+mommy*	40	41	43
+moms	40	41	43
+monsieur	40	44
+mother	40	41	43
+mother's	40	41	43
+motherhood	40	41	43
+motherl*	40	41	43
+mothers	40	41	43
+mr	40	44	80	83
+mrs	40	43	80	83
+ms	40	43	80	83
+mum	40	41	43
+mum's	40	41	43
+mummy*	40	41	43
+mums	40	41	43
+name	40
+names	40
+nana	40	41	43
+nana's	40	41	43
+nanas	40	41
+nann*	40	41	80	83	112
+negotiat*	40	110
+neighbor*	40	42	80	81	100	102	112
+neighbour*	40	42	100	102	112
+nephew*	40	41	44
+newborn*	40
+niece*	40	41	43
+offer*	40
+oomf	40	120	122
+outsider*	40
+overhear*	40	60	62
+owner*	40	80	83
+pa	40	41	44
+pa's	40	41	44
+pal	40	42	80	81
+pal's	40	42	80	81
+pals	40	42	80	81
+papa	40	41	44
+papa's	40	41	44
+papas	40	41	44
+pappy	40	41	44
+pappy's	40	41	44
+parent*	40	41	80	81
+participant*	40
+participat*	40
+partner*	40	42	80	81
+paternity	40	41	44	70	72
+patriarch*	40	44	80	83
+peeps	40	42
+people*	40
+person	40
+person's	40
+persons	40
+persua*	40	50	51	80	83
+phone*	40	60	62
+playmate*	40	42
+posse	40	42	80	81
+ppl*	40	120	122
+pregnan*	40	41	70	72	73
+prince	40	44
+prince'*	40	44
+princes	40	44
+princess*	40	43
+private	40
+prom	40	111
+provide	40	91
+provides	40	91
+providing	40
+public	40
+queen	40	43	80	82	83
+queen's	40	43	80	83
+queens	40	43	80	83
+question	40	50	51	54
+receiv*	40	100	101	103
+recommend*	40
+refus*	40	80	83
+relate*	40	50	51
+relationship*	40	80	81
+relatives	40	41	80	81
+replie*	40
+reply*	40
+request*	40	80	83
+respond*	40
+role*	40
+roomate*	40	42	100	102	112
+roomie*	40	42	80	81	100	102	112
+roommate*	40	42	80	81	100	102	112
+rt	40	120	122	123
+rumor*	40
+rumour*	40
+schoolboy*	40	44
+schoolgirl*	40	43
+schoolmate	40	42
+secretively	40	50	51
+secretly	40
+secrets	40	50	51
+self	40
+sender	40	100	101
+senor	40	44	80	83
+senora	40	43	80	83
+senorita	40	43
+she-*	40	43
+sibling*	40	41	80	81
+sidekick*	40	42
+sir	40	44	80	83
+sis	40	41	43	120
+sister*	40	41	43	80	81
+sms	40	80	81	120	122
+smsed	40	80	81	90	120	122
+snapchat*	40	80	81	111	120	122
+social	40	80	81
+socially	40	80	81
+societ*	40
+son	40	41	44
+son's	40	41	44
+son-in-law*	40	41	44
+sons	40	41	44
+sororit*	40	43	80	81
+spous*	40	41	80	81
+squad*	40	42	80	81
+step-child*	40	41
+step-dad*	40	41	44
+step-dau*	40	41	43
+step-fath*	40	41	44
+step-kid*	40	41
+step-moth*	40	41	43
+step-son*	40	44
+stepchild*	40	41
+stepdad*	40	41	44
+stepdau*	40	41	43
+stepfath*	40	41	44
+stepkid*	40	41
+stepmoth*	40	41	43
+stepson	40	44
+stories	40
+story	40
+sugardadd*	40	44	113
+sugarmam*	40	43	113
+sugarmom*	40	43	113
+suggest*	40
+sympath*	40	42	80	81
+talk	40	91
+talker*	40
+team*	40	80	81	82	110	111
+teen	40	80	83
+teenage*	40	80	83
+telephon*	40	60	62
+together	40	80	81	100	102
+tomboy*	40	43
+tweet*	40	80	81
+twitter	40	80	81	111	120	122
+uncle	40	41	44
+uncle's	40	41	44
+uncles	40	41	44
+valentin*	40	42	80	81
+visits	40	100	101
+wed	40	100	103
+wedding*	40	41	80	81
+wench*	40	43
+widow*	40	41
+wife*	40	41	43	80	81
+wive*	40	41	43	80	81
+woman	40	43
+woman's	40	43
+womanhood	40	43
+womans	40	43
+women*	40	43
+youngster*	40	100	103
+absolute	50	55
+accura*	50	55
+acknowledg*	50	51
+activat*	50	52
+adjust*	50	56
+afterthought*	50	51	100	103
+allow*	50	52	80	83
+alternativ*	50	56
+altogether	50	55
+always	50	55	100	103
+ambigu*	50	54
+analy*	50	51	110
+answer*	50	51
+anyhow	50	54
+anytime	50	54	100	103
+apart	50	56	100	102
+appearing	50	54	60	61
+arbitrar*	50	54
+assum*	50	51	54
+attent*	50	51
+attribut*	50	52
+aware*	50	51
+basis	50	52
+belief*	50	51	114
+believing	50	51
+bet	50	54	80	84	113
+bets	50	54	80	84	113
+betting	50	54	80	84	113
+blatant*	50	55
+blur*	50	54	111
+border*	50	54	100	102
+bosses	50	52	80	83	110
+categor*	50	51
+caus*	50	52
+chance	50	54
+change	50	52	100	101
+changes	50	52	100	101
+changing	50	52	100	101
+choice*	50	51
+choos*	50	51
+clarif*	50	51
+closure	50	51
+clue	50	51
+cohere*	50	51
+commit	50	55	91
+commitment*	50	55
+commits	50	55	91
+committed	50	55
+committing	50	55
+compel*	50	52
+complete	50	55
+completed	50	55	90
+completes	50	55	91
+complexity	50	51
+compliance	50	52	80	83
+complicate	50	51
+complicates	50	51	91
+complicating	50	51
+complication*	50	51
+compreh*	50	51
+concentrat*	50	51
+conclud*	50	51
+conclus*	50	51
+confusion*	50	54
+conscious*	50	51
+consequen*	50	52	80	85
+consideration	50	51
+contemplat*	50	51
+contingen*	50	54
+control*	50	52	80	83
+convinc*	50	51
+correct*	50	55
+correlat*	50	51
+curio*	50	51
+decis*	50	51
+deduc*	50	51	52
+defined	50	55
+defining	50	51
+definition	50	51
+definitive*	50	55
+depending	50	52	54
+determining	50	51
+diagnos*	50	51	70	72
+differ	50	56
+differed	50	56	90
+differential	50	56
+differentiat*	50	56
+differently	50	56
+differing	50	56
+directly	50	55	100	102
+discern*	50	51
+discover*	50	51
+disorient*	50	54
+distinct*	50	55	56
+distinguish*	50	56
+dubious*	50	54
+dunno	50	54	120	122	125
+effect*	50	51	52
+elicit*	50	52
+else	50	56
+enabl*	50	52	80	82
+enlighten*	50	51
+evaluat*	50	51
+everytime	50	55	100	103
+evidence	50	51
+evident*	50	55
+exact*	50	55
+examin*	50	51
+exception	50	56
+exceptions	50	56
+excluded	50	56
+exclusion*	50	56
+expect*	50	53	92
+experiment	50	52
+explanat*	50	51
+explicit*	50	55
+explor*	50	51	100	101
+fact	50	55
+factor	50	52
+facts	50	55
+factual*	50	55
+fairly	50	54
+feelings	50	51	60	63
+figur*	50	51
+finding	50	51
+findings	50	51
+force*	50	52	80	83
+forever	50	55	100	103
+founded	50	52	80	82	90
+frankly	50	55
+fundamentalis*	50	55	114
+fundamentally	50	55
+fundamentals	50	55
+fuzz*	50	54	60	63
+generate*	50	52
+generating	50	52
+generator*	50	52
+genuinely	50	51
+grasp*	50	51	60	63
+guarant*	50	55
+half-ass*	50	54	120	121
+halfass*	50	54	120	121
+hypothes*	50	54
+hypothetic*	50	54
+idea	50	51
+ideas	50	51
+identif*	50	51
+ignit*	50	52
+imagin*	50	51
+implica*	50	52
+implicit*	50	55
+implie*	50	52
+imply*	50	52
+incomplet*	50	54
+indefinit*	50	54
+independ*	50	52
+indirect*	50	54	100	102
+induc*	50	51	52
+inevitab*	50	55
+infallib*	50	55	80	83
+inferen*	50	51	52
+inferr*	50	51	52
+influenc*	50	52	80	83
+info	50	51
+information	50	51
+informative*	50	51
+initiat*	50	52	80	82	100	103
+insight*	50	51
+intend*	50	52
+intent*	50	52
+interpret*	50	51
+invariab*	50	55
+irrefu*	50	55
+justif*	50	51	52
+kind of	50	54
+kinda	50	54	120	122
+kindof	50	54
+kinds	50	56
+knowab*	50	51
+knowledg*	50	51
+lacked	50	53	80	85	90
+launch*	50	52	100	101
+lead	50	52	80	82	83	100	101	110
+leading	50	52	80	82	83	100	101	110
+leads	50	52	80	82	83	100	101	110
+learner	50	51	110
+learners	50	51	110
+led	50	52	90	100	101
+lesson*	50	51	110
+likel*	50	54
+link*	50	51	100	102
+logic*	50	51
+mainly	50	54
+maker*	50	52
+manipulat*	50	52	80	83
+marginal*	50	54
+meaning*	50	51
+memorabl*	50	51
+memories	50	51
+memoris*	50	51
+memoriz*	50	51
+memory	50	51
+mindful*	50	51
+misle*	50	52
+misunder*	50	51
+motiv*	50	51	52	80	82	110
+myster*	50	54
+necessari*	50	55
+normally	50	53
+obedience	50	52	80	83
+obedient	50	52	80	83
+obediently	50	52
+obscur*	50	54
+obvious	50	55
+obviously	50	55
+occasional*	50	54	100	103
+odd	50	53
+opinion	50	54
+opposite*	50	56
+option*	50	54
+origin	50	52	100
+originat*	50	52
+origins	50	52
+outcome*	50	52
+overall	50	54
+perceiv*	50	51	60
+percept*	50	51	60
+permit*	50	52	80	83
+perspective	50	51
+ponder*	50	51
+possib*	50	54
+potential*	50	54	80	82	92
+precis*	50	55
+prefer*	50	51	53
+presum*	50	51
+pretend*	50	51
+produc*	50	52	110
+proof	50	55
+prove*	50	51	55
+proving	50	51	55
+provok*	50	52
+pure	50	55
+purely	50	55
+pureness	50	55
+purity	50	55
+purpose*	50	52	80	82
+puzzl*	50	54
+quer*	50	51
+questions	50	51	54
+quite	50	54
+randomly	50	54
+randomness	50	54
+rational*	50	51	52
+react*	50	52
+realization*	50	51
+rearrang*	50	51	110
+reason*	50	51	52
+recall*	50	51
+recogni*	50	51
+recollect*	50	51	90
+reconcil*	50	51	80	81
+reconsider*	50	51
+reconstruct*	50	51	110
+reevaluat*	50	51
+refer*	50	51
+reflect*	50	51
+regardless	50	53
+relation	50	51	80	81
+relations	50	51	80	81
+reorgani*	50	51	110
+resolu*	50	51
+response*	50	52
+restructur*	50	51	110
+result*	50	52
+rethink*	50	51
+reveal*	50	51	60	61
+revelat*	50	51
+root*	50	52
+s'pose	50	54
+seeming*	50	51	54
+sense	50	51	60
+senses	50	51	60
+separat*	50	56	100	102
+solution*	50	51	52	80	82
+someday	50	54	92
+sometime	50	54	92	100	103
+sometimes	50	54	100	103
+sort	50	54
+sorta	50	54
+sortof	50	54
+sorts	50	54
+sortsa	50	54
+sought	50	51	60	61	90
+source*	50	52
+specifics	50	55
+split*	50	56	100	102
+statement*	50	51
+stimul*	50	52	60
+supposition*	50	54
+suspect*	50	51
+tempora*	50	54	100	103
+tentativ*	50	54	80	85
+theor*	50	54
+thinker*	50	51
+thoughts	50	51
+trigger*	50	52
+unambigu*	50	55
+unaware*	50	51
+unclear*	50	54
+undecided*	50	54
+undeniab*	50	55
+understandab*	50	51
+understanding*	50	51
+undetermin*	50	54
+undone	50	53
+undoubt*	50	55
+unknowingly	50	54
+unlikel*	50	54
+unneccess*	50	53
+unquestion*	50	55
+unrelat*	50	51
+unresolv*	50	54
+unusual	50	53
+vaguely	50	54
+vagueness	50	54
+variab*	50	54
+version	50	56
+visibly	50	55	60	61
+acid*	60
+acrid*	60
+appearance*	60	61
+aroma*	60
+audibl*	60	62
+audio*	60	62
+black	60	61
+blind*	60	61	70	72
+boom*	60	62
+brightness	60	61
+brush*	60	63
+burn	60	63
+burned	60	63
+burning	60	63
+burns	60	63
+burnt	60	63
+butter*	60	70	74
+candle*	60	61
+caramel*	60
+caress*	60	63
+cellphone*	60	62
+choir*	60	62	111
+chorus	60	62	111
+circle	60	61
+citrus*	60
+clap	60	62
+clapped	60	62	90
+clapping	60	62
+claps	60	62
+click*	60	62
+cologne*	60
+color*	60	61
+colour*	60	61
+concert*	60	62	111
+cooling	60	63
+dark	60	61
+darken*	60	61
+darkness	60	61
+deaf*	60	62	70	72
+depict*	60	61
+display*	60	61
+dj*	60	62	111
+dried	60	63
+drool*	60	70	71
+dryness	60	63
+ear	60	62	70	71
+ears	60	62	70	71
+edge*	60	100	102
+ep	60	62	111	120	122
+experienc*	60
+feelin	60	63
+fetid*	60
+finger*	60	63	70	71
+fire	60	63
+fizz*	60
+flapping	60	62	100	101
+flavor*	60
+flavour*	60
+fragil*	60	63
+fragran*	60
+frail*	60	63	80	83
+freez*	60	63
+froze*	60	63
+fruit*	60	70	74
+gaz*	60	61
+glanc*	60	61
+glow*	60	61
+goosebump*	60	63	70	71
+graphic*	60	61
+greas*	60
+grip	60	63
+gripp*	60	63
+grips	60	63
+haircut	60	70	71
+hairless*	60	63	70	71
+hairs	60	63	70	71
+hallucinat*	60	70	72
+hand	60	63	70	71
+handful*	60	63
+hands	60	63	70	71
+harden	60	63
+hush*	60	62
+hymn*	60	62	114
+image*	60	61
+inaudibl*	60	62
+itch*	60	63	70	71	72
+juicy	60
+leather*	60	63
+lick*	60
+light	60	61
+lights	60	61
+limp*	60	63	70	71
+lit	60	61	90
+looker*	60	61
+loosed	60	63	90
+loosely	60	63
+looses	60	63
+loud	60	62
+loudly	60	62
+loudn*	60	62
+lump*	60	63	70	72
+mint*	60
+monitor	60	61
+musi*	60	62	111
+noise	60	62
+noises	60	62
+nose*	60	70	71
+nostril*	60	70	71
+odor*	60
+odour*	60
+oil*	60
+opera	60	62	111
+orchestra*	60	62	111
+perfum*	60
+photo	60	61
+photograph*	60	61
+photos	60	61
+pic	60	61	120	122
+picture*	60	61
+press	60	63
+pressing	60	63
+pungen*	60
+purple	60	61
+quietly	60	62
+radio*	60	62	111
+rap	60	62	111
+rectang*	60	61
+redden*	60	61
+remark*	60	62
+ring	60	62
+rings	60	62
+saccharine	60
+saliv*	60	70	71
+salt	60	70	74
+sand	60	63
+sands	60	63
+savor*	60
+savour*	60
+scan	60	61
+scann*	60	61
+scans	60	61
+scent*	60
+scratch*	60	63
+screen	60	61
+search	60	61
+searched	60	61	90
+searches	60	61	91
+searching	60	61
+selfie*	60	61	111	120	122
+sensation	60	63	70	71
+sensations	60	63	70	71
+shadow	60	61
+sharp*	60	63
+shine	60	61
+shini*	60	61
+shout*	60	62
+show	60	61
+showing	60	61
+shows	60	61
+sight*	60	61
+silen*	60	62
+silk*	60	63
+skin	60	63	70	71
+skin'*	60	63	70	71
+smell*	60
+smooth*	60	63
+sniff*	60
+snort*	60
+softly	60	63
+song*	60	62	111
+sound*	60	62
+speaker*	60	62
+speech*	60	62
+spice	60
+spiced	60
+spices	60
+squeez*	60	63
+stroke*	60	63	70	72
+stroki*	60	63
+sugar	60	70	74
+sugars	60	70	74
+sumptuous*	60
+sunli*	60	61
+tangy	60
+taste	60	70	74
+thick*	60	63	100	102
+thunder*	60	62
+tightly	60	63
+tingl*	60	63	70	72
+tongue*	60	70	71
+touch*	60	63
+triang*	60	61
+tune	60	62
+tunes	60	62
+vid	60	61	120	122
+video*	60	61	111
+view	60	61
+viewer*	60	61
+viewing*	60	61
+views	60	61
+visible	60	61
+vivid*	60	61
+voic*	60	62
+waft*	60	100	101
+watch	60	61	91
+watcher	60	61
+watches	60	61	91
+weight	60	63	70	74
+weighted	60	63
+weightless*	60	63
+weights	60	63	111
+wet	60	63
+wheez*	60	62	70	72
+whiff*	60
+yawn*	60	62	70	72
+yellow	60	61
+abdomen*	70	71
+abortion*	70	72	73
+abs	70	71
+acne	70	72
+addict*	70	72
+advil	70	72
+aerobic*	70	72	111
+aids	70	72	73
+alcohol*	70	72	74	111
+allerg*	70	72
+amput*	70	72
+anal	70	71
+ankle*	70	71
+anorexi*	70	72	74
+antacid*	70	72	74
+antidepressant*	70	72
+anus*	70	71
+appeti*	70	74
+arch	70	71
+arm	70	71
+armpit*	70	71
+arms*	70	71
+arous*	70	71	73
+arse	70	71	120	121
+arses	70	71	120	121
+arter*	70	71
+arthr*	70	72
+asexual*	70	73
+aspirin*	70	72
+ass	70	71	120	121
+asses	70	71	120	121
+asthma*	70	72
+bacon*	70	74
+bake*	70	74	112
+baking	70	74	112
+bald	70	71
+banana	70	74
+bandage*	70	72
+bandaid	70	72
+bar	70	74	111
+bars	70	74	111
+bbq	70	74
+bdsm	70	73
+bean*	70	74
+beard	70	71
+beef	70	74
+beer*	70	74	111
+bellies	70	71
+belly	70	71
+bi	70	73
+bi-sexual*	70	73
+bicep*	70	71
+binge*	70	72	74
+biolog*	70	110
+bipolar	70	72
+bj	70	73
+bladder*	70	71
+bleed*	70	71	72
+blood	70	71
+bloody	70	71	120	121
+blowjob*	70	73
+bodi*	70	71
+body*	70	71
+boil*	70
+bollock*	70	71	120	121
+bone	70	71
+boner*	70	71	73
+bones	70	71
+bony	70	71
+boob*	70	71	73	120	121
+booty	70	71
+booz*	70	74	111
+bowel*	70	71
+brain*	70	71
+bread	70	74
+breakfast*	70	74
+breast*	70	71	73
+breath*	70	71
+bronchi*	70	72
+brownies	70	74
+brunch*	70	74
+bulimi*	70	72	74
+burger	70	74
+burp*	70	71
+butt	70	71	120	121
+buttfuck*	70	73	120	121
+butts	70	71	120	121
+cafe*	70	74	111
+caffeine	70	74
+cake*	70	74
+call-girl*	70	73
+callgirl*	70	73
+cancer*	70	72
+candie*	70	74
+candy	70	74
+cardia*	70	72
+cardio*	70	72
+cbt	70	72
+cereals	70	74
+checkup*	70	72
+cheek*	70	71
+chees*	70	74
+chest*	70	71
+chew*	70	74
+chili	70	74
+chills	70	72
+chiropract*	70	72
+chlamydia	70	72	73
+chocolat*	70	74
+chok*	70	72
+cholester*	70	72
+chow*	70	74
+chronic*	70	72	100	103
+cigar*	70	72	74
+clinic*	70	72
+clit	70	71	73
+clitoris*	70	71	73
+clothes	70	71
+cock	70	71	73	120	121
+cocks*	70	71	73	120	121
+cocktail*	70	74	111
+codeine	70	72
+coffee*	70	74	111
+coke*	70	74
+cola	70	74
+colon	70	71
+colono*	70	72
+condom	70	72	73
+condoms	70	72	73
+congest*	70	72
+constipat*	70	72
+contag*	70	72
+cook*	70	74	111
+cornea*	70	71
+coronar*	70	72
+cough*	70	72
+cramp*	70	72
+cream	70	74
+creamer	70	74
+crotch	70	71
+cum	70	73
+cumming	70	73
+cums	70	73
+cupcake*	70	74
+cyst*	70	72
+decongest*	70	72
+dentist*	70	72
+derma*	70	72
+dessert*	70	74
+detox*	70	72
+diabet*	70	72
+diarr*	70	72
+dick	70	71	73	120	121
+dicks	70	71	73	120	121
+diet*	70	72	74
+digest*	70	72	74
+dildo*	70	73
+diner	70	74
+diners	70	74
+dining	70	74
+dinner*	70	74
+disease*	70	72
+dish	70	74
+dishes	70	74
+dizz*	70	72
+doctor*	70	72	80	83	110
+dosage*	70	72
+dose*	70	72
+dosing	70	72
+dr	70	72	80	83
+drink*	70	74	111
+drows*	70	72
+drs	70	72	80	83
+drug*	70	72
+drunk	70	74	111
+dtf	70	73	120	121	122
+dyke*	70	73
+egg*	70	74
+elbow*	70	71
+emphysem*	70	72
+enema*	70	72
+epidemic*	70	72	115
+erection*	70	71	73
+erotic*	70	73
+espresso*	70	74	111
+estrogen*	70	72
+exercis*	70	72	111
+face	70	71
+faces	70	71
+facial*	70	71
+faint*	70	72
+fats	70	72	74
+fatted	70	74
+fatten*	70	71	72	74
+fatties	70	71	72	120	121
+fatty	70	71	72	74
+feed	70	74
+feeder*	70	74
+feeding*	70	74
+feeds	70	74
+feet	70	71
+fetish*	70	73
+fever*	70	72
+fitness*	70	72	111
+flesh*	70	71
+flu	70	72
+food*	70	74
+foot	70	71
+forearm*	70	71
+forehead*	70	71
+foreplay	70	73
+fries	70	74
+fry*	70	74
+fuckboy*	70	73	120	121
+fucktoy*	70	73
+gays	70	73
+genital*	70	71	73
+gigolo*	70	73
+gland*	70	72
+glaucoma	70	72
+glutton*	70	74
+gobble*	70	74
+gobbling	70	74
+gonorrhea*	70	72	73
+grocer*	70	74
+gulp*	70	74
+gums	70	71
+gut	70	71
+guts	70	71
+gynecolog*	70	72
+gyno*	70	72
+hamstring*	70	71
+hard-on*	70	73
+head	70	71
+headache*	70	72
+heads	70	71
+health	70	72
+healthily	70	72
+heart	70	71
+heartburn*	70	72
+hearts	70	71
+heel*	70	71
+helpings	70	74
+hemor*	70	72
+herpes	70	72
+heterosexual*	70	73
+hiccup*	70	72
+hip	70	71
+hips	70	71
+hiv	70	72	73
+homo	70	73	120	121
+homos	70	73	120	121
+homosexual*	70	73
+hooker*	70	73
+hormone*	70	72
+hornie*	70	71	73
+hospital*	70	72
+hump*	70	73
+hunger*	70	74
+hungrily	70	74
+hungry	70	74
+hyperten*	70	72
+hypotherm*	70	72
+ibuprofen	70	72
+icu	70	72
+ill	70	72
+illness*	70	72
+immun*	70	72
+incest*	70	73
+indigestion	70	72
+infect*	70	72
+infertil*	70	72
+inflam*	70	72
+ingest*	70	72	74
+inhal*	70	71
+injur*	70	71	72
+insomnia*	70	72
+insulin	70	72
+intestin*	70	71
+intox*	70	72
+iv	70	72
+jaw*	70	71
+jism	70	73
+jissom	70	73
+jizz*	70	73
+joints	70	71
+juice*	70	74
+kidney*	70	71
+kitchen*	70	74	112
+knee*	70	71
+knuckle*	70	71
+leg	70	71
+legs*	70	71
+leuke*	70	72
+libid*	70	73
+life	70	72
+lip	70	71
+lips*	70	71
+liquor*	70	74	111
+liver*	70	71
+lozenge*	70	72
+lunch*	70	74
+lung	70	71
+lungs	70	71
+lust*	70	73
+lymph*	70	72
+makeout*	70	73
+mammogram*	70	72
+manic-dep*	70	72
+manicdep*	70	72
+margarita*	70	74	111
+martini*	70	74	111
+masturb*	70	73
+meal*	70	74
+meat*	70	74
+medic*	70	72
+migrain*	70	72
+milk*	70	74
+miscar*	70	72
+mono	70	72
+mouth*	70	71
+mri	70	72
+mucous*	70	71
+muscle*	70	71	72
+myopi*	70	72
+nause*	70	72
+neck*	70	71
+nerve*	70	71
+neural*	70	71
+neurolog*	70	72
+neuron*	70	71
+nipple*	70	71	73
+noodle*	70	74
+nude*	70	71	73
+nudi*	70	71	73
+nurse*	70	72
+nutrition*	70	72
+obese	70	72	74
+obesity	70	72	74
+ocd	70	72
+operat*	70	72	110
+optometr*	70	72
+orgasm*	70	71	73
+orgi*	70	73
+orgy	70	73
+orthodon*	70	72
+orthoped*	70	72
+ovar*	70	71	73
+palm	70	71
+palms	70	71
+pancake*	70	74
+pap	70	72
+paraly*	70	72
+pasta*	70	74
+patholog*	70	72
+pediatr*	70	72
+pee	70	71
+pelvi*	70	71
+penis*	70	71	73
+pepsi	70	74
+perspir*	70	71
+pharmac*	70	72
+physicality	70	72
+physically	70	72
+physicals	70	72
+physician*	70	72
+pie	70	74
+pies	70	74
+pill	70	72	74
+pills	70	72	74
+pimple*	70	72
+pizza*	70	74
+pms	70	72
+podiatr*	70	72
+poop*	70	71
+popcorn	70	74
+pork	70	74
+porn*	70	73
+potato*	70	74
+prescri*	70	72
+prognos*	70	72
+promiscu*	70	73
+prostat*	70	71	73
+prostitu*	70	73
+prozac	70	72
+prude	70	73
+pulse	70	71
+puss	70	72
+pussies	70	71	73	120	121
+pussy*	70	71	73	120	121
+queer*	70	73
+rash*	70	71	72
+rehab*	70	72
+restau*	70	74	111
+retina*	70	71
+rib	70	71
+ribs	70	71
+rice	70	74
+ritalin	70	72
+rum	70	74	111
+rx	70	72
+salad*	70	74
+salsa	70	74
+sandwich*	70	74
+sauce	70	74
+sauces	70	74
+sausage*	70	74
+scab*	70	72
+scalp	70	71
+schizophren*	70	72
+scrape*	70	72
+seduc*	70	73
+seizure*	70	72
+servings	70	74
+sex	70	73
+sexily	70	73
+sexiness	70	73
+sexless*	70	73
+sexploit*	70	73	80	83
+sexpot*	70	73
+sext*	70	73	80	81
+sexual*	70	73
+shirt*	70	71
+shoe*	70	71
+shoulder*	70	71
+sickday*	70	72	110
+sickleave*	70	72	110
+sickness*	70	72
+sinus*	70	72
+skelet*	70	71
+skull*	70	71
+sleep	70	71
+sleepless*	70	71
+smok*	70	74
+snack*	70	74
+soda*	70	74
+soup*	70	74
+spaghetti	70	74
+spat	70	71	90
+spine	70	71
+spit	70	71
+starve*	70	74
+std*	70	72	73
+stiffly	70	72
+stomach*	70	71
+strept*	70	72
+stud	70	73
+sunburn*	70	72
+supper*	70	74
+surgeon*	70	72
+surger*	70	72
+sushi	70	74
+swallow*	70	74
+sweat*	70	71
+swelling	70	72
+swinger*	70	73
+symptom*	70	72
+syndrome*	70	72
+syphili*	70	72	73
+taco*	70	74
+tea	70	74
+teeth*	70	71
+tendon	70	71
+tendoni*	70	72
+tendons	70	71
+tequila*	70	74	111
+testosterone*	70	72
+therap*	70	72
+thermometer*	70	72
+thigh*	70	71
+thirst	70	71	74
+throat*	70	71
+throb*	70	72
+thumbs	70	71
+thyroid*	70	72
+tiredest	70	72
+tit	70	71	73	120	121
+tits	70	71	73	120	121
+titties	70	71	73	120	121
+titty	70	71	73	120	121
+toe	70	71
+toenail*	70	71
+toes	70	71
+tonsils	70	71
+tooth*	70	71
+tox*	70	72
+tricep*	70	71
+tummy	70	71
+tumo*	70	72
+twat*	70	73	120	121
+twitches	70	72	91	100	101
+tylenol	70	72
+ulcer*	70	72
+unhealthy	70	72
+urin*	70	71
+uter*	70	71
+vag	70	71	73
+vagin*	70	71	73
+vd	70	72	73
+veget*	70	74
+veggie*	70	74
+vein*	70	71
+vertigo	70	72
+viagra	70	72	73
+vibrator*	70	73
+vicodin	70	72
+virgin*	70	73
+vitamin*	70	72
+vodka*	70	74	111
+waist*	70	71
+wake	70	71
+wank*	70	73	120	121
+wart	70	72
+warts	70	72
+water	70	74
+wheat	70	74
+whiskey*	70	74	111
+whisky*	70	74	111
+wine	70	74	111
+wines	70	74	111
+withdrawal	70	72
+womb*	70	71	73
+work-out*	70	72	111
+workout*	70	72	111
+wound*	70	72
+wrist*	70	71
+xanax	70	72
+xray*	70	72
+zit	70	72
+zits	70	72
+zoloft	70	72
+74	74
+Ingest	74
+a-list*	80	83
+abilit*	80	82
+able	80	82
+abstain*	80	85
+access*	80	84
+acclaimed	80	83
+accompan*	80	81
+accomplish*	80	82	110
+accrue*	80	84	113
+accumul*	80	84
+ace	80	82
+achievable	80	82	84	110
+achieve*	80	82	84	110
+achievi*	80	82	84	110
+acquir*	80	82	84
+acquisition*	80	82
+actualiz*	80	82
+adequa*	80	82
+administr*	80	83	110
+advanc*	80	82	84	100	101
+affil*	80	81
+age	80	83	100	103
+alliance*	80	81
+allies	80	81
+amass*	80	84
+amateur*	80	83
+ambition	80	82	83	110
+ambitions	80	82	83	110
+ambitiously	80	82
+ambitiousness	80	82	110
+apprentic*	80	83	110
+approach	80	84	100	101
+approached	80	84	90	100	101
+approaches	80	84	100	101
+approaching	80	84	92	100	101
+associate	80	81	110
+associates	80	81	110
+associating	80	81	110
+association	80	81	110
+associations	80	81
+attain	80	82
+attained	80	82
+attaining	80	82
+attainment	80	82
+attains	80	82
+attendant	80	83
+authorit*	80	82	83
+authorize	80	83
+averse	80	85
+avert*	80	85
+balk	80	85
+beat	80	82	83
+beating	80	83
+beats	80	83
+beggar*	80	83	113
+begged	80	83	90
+beginner	80	83	100	103
+belong*	80	81
+beware	80	85
+boss	80	83	110
+bossed	80	83	110
+bullies	80	83
+bully	80	83
+bum	80	83
+bums	80	83
+burnout*	80	82	110
+camarad*	80	81
+campaign*	80	83
+capab*	80	82
+captain	80	83
+captive*	80	83
+careful*	80	85
+caretaker	80	83
+cash	80	83	113
+caste	80	83
+caution*	80	85
+cautious*	80	85
+cease*	80	85	100	103
+celebrities	80	83	111
+celebrity	80	83	111
+ceo*	80	83	110
+cfo*	80	83	110
+chairm*	80	83	110
+chairperson	80	83	110
+chairw*	80	83	110
+charisma	80	83
+cheap	80	83	113
+cheapen*	80	83	113
+chief*	80	83
+church*	80	81	114
+clan	80	81
+clans	80	81
+climb*	80	82	100	101
+club	80	81	111
+clubs	80	81	111
+coach*	80	83	111
+collaborate*	80	81	110
+collaboration	80	81	110
+collaborative	80	81	110
+command*	80	83
+compet*	80	82	83	110
+compromis*	80	81
+concern	80	85
+conform	80	83
+conformity	80	83
+congress*	80	83	110
+conquer*	80	82	83
+conquest*	80	83
+conscientious*	80	82
+consort*	80	81
+convene	80	81
+cooperat*	80	81
+cop	80	83
+cops	80	83
+coup	80	83
+coward*	80	83
+craving	80	84
+criminal*	80	83
+crises	80	85
+crisis	80	85
+crook	80	83
+crooks	80	83
+crown*	80	83
+crushing	80	83
+cuddl*	80	81
+curb*	80	85
+dare	80	84
+dares	80	84
+deadbeat	80	83
+dean*	80	83	110
+delegate	80	83	110
+delegates	80	83	110
+delegation	80	83	110
+demand*	80	83
+dependent	80	83
+dictate	80	83
+dictator*	80	83
+dignitaries	80	83
+dignitary	80	83
+diligen*	80	82
+director*	80	83	110
+disciple*	80	83
+dm	80	81	120	122
+donation*	80	81	113
+doofus	80	83	120	121
+driven	80	82	100	101
+dropout*	80	82	110
+dufus	80	83	120	121
+earn	80	82	84	110
+earned	80	82	84	90	110	113
+earnings	80	84	113
+education	80	83	110
+efficien*	80	82
+effort*	80	82	110
+ego	80	83
+elit*	80	82	83
+empath*	80	81
+employee*	80	83	110
+employer*	80	83	110
+endeav*	80	82
+enorm*	80	83	100	102
+enslav*	80	83
+escap*	80	85	100	101
+evad*	80	85	100	101
+exec	80	83	110
+executive*	80	83	110
+expense	80	85	113
+expenses	80	85	113
+expert*	80	83
+exploit	80	83
+faction	80	81
+fame	80	83
+famous	80	83
+famously	80	83
+finaliz*	80	82	110
+first-class	80	83
+founder*	80	82
+founding	80	82
+frat	80	81	110
+fraternit*	80	81
+freshm*	80	83	110
+fulfill*	80	82	84
+gain*	80	82	84
+goal*	80	82	84	110
+god	80	83	114
+god's	80	83	114
+govern*	80	83	110
+gpa	80	82	110
+guard*	80	85
+guild*	80	81
+hai	80	81	120	122
+hid	80	85
+hide	80	85
+hides	80	85
+hiding	80	85
+hierarch*	80	83
+highness	80	83
+hinder*	80	85
+hobo*	80	83
+homeless*	80	83
+hookup*	80	81
+huge	80	83	100	102
+humble	80	83
+incapab*	80	82	83
+infamous	80	83
+inferiors	80	83
+inspector	80	83
+intern	80	83
+invade	80	83	91
+invader	80	83
+invasion	80	83
+irresponsible*	80	82
+jackpot*	80	84	113
+jd	80	83	110
+joins	80	81
+judge	80	83
+judged	80	83
+judgement	80	83
+judges	80	83
+judging	80	83
+junior*	80	83	110
+justice*	80	83
+kindred	80	81
+kingpin	80	83
+kinship	80	81
+lackey	80	83
+landlord*	80	83	112
+law*	80	83	110
+league*	80	81
+liaison*	80	81
+like-mind*	80	81
+lil'	80	83	100	102	120	122
+limit*	80	82
+loan*	80	83	113
+lord*	80	83	114
+manage	80	83	110
+manageabl*	80	83	110
+management*	80	83	110
+manager*	80	83	110
+managing	80	83	110
+master	80	83
+masterful	80	83
+mastermind	80	83
+masters	80	83	110
+mastery	80	82	83
+medal*	80	82
+mediocr*	80	82
+meek*	80	83
+mentor*	80	83	110
+mighty	80	83
+militant	80	83
+military	80	83
+mingle*	80	81
+minion*	80	83
+minister*	80	83	114
+minor	80	83
+mmo*	80	81	111	120	122
+mms*	80	81
+monarch*	80	83
+monopol*	80	83	113
+msg	80	81	120	122
+mutin*	80	83
+mvp*	80	83
+n00b	80	83
+newbie*	80	83
+newcomer*	80	83
+nominat*	80	83
+noob	80	83
+novice	80	83
+obtainable	80	82	84	92
+officehold*	80	83	110
+officer*	80	83
+official*	80	83
+oppose*	80	83
+oppositi*	80	83
+order	80	83	100
+orders	80	83
+outcast	80	83
+outrank*	80	83
+overconfiden*	80	82
+overpower*	80	83
+overrul*	80	83
+overtak*	80	82
+pariah*	80	83
+parliament*	80	83
+passiv*	80	83
+peasant*	80	83
+peon*	80	83
+permiss*	80	83
+persever*	80	82
+persist*	80	82
+phd*	80	83	110
+pilot*	80	83
+plan	80	82	92
+planned	80	82
+planning	80	82	92
+plans	80	82	92
+plead*	80	83
+pledge	80	83
+polic*	80	83	110
+poorhouse*	80	83	113
+poverty*	80	83	113
+power	80	83
+powerful	80	82	83
+powerfully	80	83
+powers	80	83
+practice	80	82	91	110
+predator*	80	83
+presiden*	80	83	110
+prestig*	80	83
+prevent*	80	85
+prey	80	83
+priest*	80	83	114
+principal	80	83
+prison*	80	83
+probation*	80	83
+prof	80	83	110
+professor*	80	83	110
+proficien*	80	82
+profs	80	83	110
+progress	80	82
+prominen*	80	83
+promot*	80	82	84	110
+protect*	80	85
+puny	80	83
+quitt*	80	82
+rabbi	80	83	114
+rabbinal	80	83
+rank	80	82	83
+ranked	80	82	90
+ranking	80	82
+ranks	80	82
+recover*	80	82
+refrain*	80	85
+regulat*	80	83	110
+reign*	80	83
+rendez-vous	80	81
+rendezvous	80	81
+resist*	80	83
+resourceful*	80	82
+respects	80	83
+retweet*	80	81	120	122
+reunion*	80	81
+reunite*	80	81
+revolution*	80	83
+ringleader*	80	83
+rookie*	80	83
+royalty	80	83
+rule	80	83
+ruler	80	83
+rules	80	83
+ruling	80	83
+score*	80	84
+scoring	80	84
+scum*	80	83
+seize*	80	84
+senat*	80	83
+senior*	80	83	100	103	110
+servant*	80	83
+ses	80	83
+skill*	80	82	110
+slave*	80	83
+snag*	80	84
+soldier	80	83
+soldiers	80	83
+sovereign*	80	83
+spearhead*	80	83
+sr	80	83
+sra	80	83
+staff*	80	83	110
+status	80	83
+stop	80	85	100	103
+stops	80	85	100	103
+strateg*	80	82
+striv*	80	82
+student*	80	83	110
+subjugate*	80	83
+submissive*	80	83
+subordinat*	80	83
+subserv*	80	83
+subvers*	80	83
+subvert*	80	83
+superiors	80	83
+superstar*	80	83
+supervis*	80	83	110
+suppress*	80	83	85
+surpass*	80	82	84
+surrender*	80	83
+surviv*	80	82
+teach*	80	83	110
+throne*	80	83
+togetherness	80	81
+tradition*	80	81
+tribe*	80	81
+troop*	80	81
+txt*	80	81	120	122
+unbeat*	80	82
+underclass*	80	83	110
+underdog*	80	83
+underling*	80	83
+underprivileg*	80	83
+union*	80	81
+unproduc*	80	82	85	110
+upperclass*	80	83	110
+vanquish*	80	83
+verb	80	83
+veteran*	80	83
+victor*	80	82	83	84
+vigilan*	80	85
+vip	80	83
+vp*	80	83	110
+wager	80	84	113
+weakness*	80	83
+weenie*	80	83
+work	80	82	91	110
+workabl*	80	82	110
+worker*	80	82	83	110
+wuss	80	83	120	121
+xox*	80	81	120	122
+yield*	80	85
+81	81
+Affiliation	81
+ago	90	100	103
+attended	90	100	101
+bounced	90
+costed	90	113
+expired	90
+fallen	90	100	101
+funded	90	113
+grown	90	100	101
+included	90
+lapsed	90
+od'ed	90
+past	90	100	103
+placed	90	100	102
+previous*	90	100	103
+prior	90	100	103
+provided	90
+remembrance*	90	115
+slain	90	115
+taxed	90	110	113
+yester*	90	100	103
+attend	91	100	101
+attends	91	100	101
+bounce	91	100	101
+bounces	91	100	101
+continue	91	100	103
+continues	91	100	103
+current*	91	100	103
+drives	91	100	101
+excites	91
+flow	91	100	101
+91	91
+FocusPresent	91
+include	91
+includes	91
+majors	91	110
+nowadays	91
+organize	91	110
+present	91	100	103
+today*	91	100	103
+up-to-date	91
+wobble	91	100	101
+wobbles	91	100	101
+92	92
+FocusFuture	92
+anticipate*	92
+anticipation	92
+destin*	92
+fate	92
+fated	92
+fates	92
+finna	92	120	122
+fixin	92
+fixin'	92
+forbod*	92
+foresee*	92
+foreshadow*	92
+foresight	92
+futur*	92	100	103
+i'mma	92
+imminent	92
+impending	92
+oncoming	92
+onward	92
+planner	92
+prayer*	92	114
+predict*	92
+prepar*	92
+prospect*	92
+tomorrow*	92	100	103
+tonight*	92	100	103
+up-and-coming*	92
+upcoming	92
+abrupt*	100	103
+action*	100	101
+aftermath*	100	103
+afternoon*	100	103
+afterward*	100	103
+aged	100	103
+ages	100	103
+aging	100	103
+air	100	102
+anciently	100	103
+anniversar*	100	103
+annual*	100	103
+anterior	100	102
+april	100	103
+area*	100	102
+arrival*	100	101
+arriving	100	101
+attending	100	101
+august	100	103
+autumn	100	103
+avenue*	100	102
+backward*	100	101	102
+bedtime	100	103
+beginning*	100	103
+begun	100	103
+behavio*	100	101
+bend	100	102
+bending	100	102
+bends	100	102
+bent	100	102
+biannu*	100	103
+bimonth*	100	103
+birth*	100	103
+biweek*	100	103
+bottomless	100	102
+bouncing	100	101
+breadth	100	102
+break	100
+brief	100	101	103
+brink	100	102
+bumfuck	100	102	120	121
+capacit*	100	102
+car	100	101
+carrier*	100	101
+carrying	100	101
+catch	100	101
+ceasing	100	103
+ceiling*	100	102
+center*	100	102
+central*	100	102
+centre*	100	102
+centur*	100	103
+childhood	100	103
+christmas*	100	103	114
+circulat*	100	101
+city	100	102
+clock*	100	103
+close	100	102
+closed	100	102
+closely	100	102
+closes	100	101
+closing	100	101
+column*	100	102
+commute*	100	101	110
+commuting	100	101	110
+connection*	100	102
+constant	100	103
+contain*	100	102
+continued	100	103
+corner	100	102
+corners	100	102
+counties	100	102
+countr*	100	102
+county	100	102
+coverage	100	102
+crawl*	100	101
+cruis*	100	101	111
+cycle*	100	103
+dated	100	103
+dates	100	103
+day*	100	103
+decade*	100	103
+december	100	103
+deeply	100	102
+delay*	100	103
+deliver*	100	101
+densit*	100	102
+departure*	100	101
+depth*	100	102
+diagonal*	100	102
+dimension*	100	102
+direct	100	102
+direction*	100	102
+distan*	100	102
+district	100	102
+door*	100	102	112
+downhill	100	102
+downstairs	100	102
+downtown	100	102
+downward*	100	102
+drift*	100	101
+drive	100	101
+driving	100	101
+drop	100	101
+due	100	103
+earth	100	102
+east*	100	102
+elapse*	100	103
+elsewhere	100	102
+emptie*	100	102
+enclos*	100	102
+encompass*	100	102
+end	100	103
+ending	100	103
+ends	100	103
+entrance*	100	102
+environment*	100	102
+era	100	103
+eras	100	103
+etern*	100	103
+eve	100	103
+evening*	100	103
+event	100	103
+exit*	100	102
+expand*	100	102
+exterior*	100	102
+fade*	100	103
+fading*	100	103
+fall	100	101
+falling	100	101
+falls	100	101
+fast	100	101	103
+february	100	103
+fill*	100	102
+finale	100	103
+fit	100	102
+flies	100	101
+flight*	100	101
+floor*	100	102
+flowing	100	101
+flutter	100	101
+flying	100	101
+followup*	100	103
+forward	100	101	102	103
+forwarding	100	101	102	103
+forwards	100	101	102	103
+foundation*	100	102	110
+fri	100	103
+friday*	100	103
+front	100	102
+fullness	100	102
+gallop	100	101
+gap	100	102
+gate*	100	102	112
+generation*	100	103
+gesture*	100	101
+glide	100	101
+global*	100	102
+ground*	100	102
+growth	100	101
+hall	100	102
+headed	100	101
+height*	100	102
+hik*	100	101	111
+histor*	100	103
+hole*	100	102
+hop	100	101
+horizontal*	100	102
+hour*	100	103
+hugely	100	102
+hurry*	100	103
+immediate	100	103
+immediateness	100	103
+immortal*	100	103	114	115
+inch*	100	102
+inciden*	100	103
+increas*	100	101
+initial*	100	103
+inner*	100	102
+instan*	100	103
+interior*	100	102
+internal	100	102
+internally	100	102
+internation*	100	102
+intersect*	100	102
+intertwined	100	102
+interval*	100	103
+irregularly	100	103
+january	100	103
+jog*	100	101	111
+journey*	100	101
+july	100	103
+june	100	103
+kilometer*	100	102
+km*	100	102
+land	100	102
+largely	100	102
+last*	100	103
+lateral	100	102
+leaves	100	101
+ledge*	100	102
+length	100	102
+level	100	102
+levels	100	102
+lifetime*	100	103
+linear	100	102
+little	100	102
+local	100	102
+locale*	100	102
+localis*	100	102
+localit*	100	102
+localiz*	100	102
+locally	100	102
+locat*	100	102
+long	100	102
+longevity	100	103
+longitud*	100	102
+lunge*	100	101
+lunging	100	101
+map	100	102
+maps	100	102
+march*	100
+mass	100	102
+meantime	100	103
+medial*	100	102
+meter*	100	102
+metre*	100	102
+mid	100	102
+mile*	100	102
+min	100	103
+minute*	100	103
+mobility	100	101
+modernity	100	103
+modernly	100	103
+moment*	100	103
+mon	100	103
+monday*	100	103
+month*	100	103
+morning*	100	103
+motion*	100	101
+movement*	100	101
+mover*	100	101
+narrowing	100	102
+narrowly	100	102
+narrowness	100	102
+narrows	100	102
+nation	100	102
+nationality	100	102
+nationally	100	102
+nationals	100	102
+nations	100	102
+nears	100	102
+newly	100	103
+night	100	103
+nightly	100	103
+nights	100	103
+noon*	100	103
+north*	100	102
+november	100	103
+o'clock*	100	103
+occasion	100	103
+occasions	100	103
+oclock*	100	103
+october	100	103
+old	100	103
+olden	100	103
+opened	100	102
+opening*	100	102
+orbit	100	101
+outer*	100	102
+outsides	100	102
+outward*	100	102
+overflow*	100	102
+overlap*	100	102
+period*	100	103
+perpetual*	100	103
+pivot	100	101
+place	100	102
+placement*	100	102
+places	100	102
+platform*	100	102
+point	100	102
+position*	100	102
+post	100
+posterior	100	102
+preced*	100	103
+premier*	100	103
+proceed*	100	103
+procrastin*	100	103	110
+provinc*	100	102
+proximity	100	102
+pushup*	100	101
+putting	100	101
+quick	100	103
+quicken*	100	103
+quickly	100	101	103
+recency	100	103
+recur*	100	103
+region*	100	102
+relative	100
+remote*	100	102
+remov*	100	101
+repeat*	100	103
+repetit*	100	103
+replace*	100	101
+return*	100	103
+rhythm*	100	103
+ridden	100	101
+ride	100	101
+rides	100	101
+right	100	102
+rise*	100	101	102
+rising	100	101
+road*	100	102
+roll	100	101
+rolling	100	101
+room	100	102	112
+rooms	100	102	112
+rotate	100	101
+rotated	100	101
+rotates	100	101
+rotating	100	101
+rotation*	100	101
+route*	100	102
+runner*	100	101	111
+rush*	100	101
+saturday*	100	103
+schedul*	100	103	110
+scoot	100	101
+season*	100	103
+seconds	100	103
+sector*	100	102	110
+semester*	100	103	110
+september*	100	103
+sequen*	100	103
+shape*	100	102
+side	100	102
+sides	100	102
+siding	100	102
+simultaneous*	100	103
+site	100	102
+sites	100	102
+sky*	100	102
+slip	100	101
+slipping	100	101
+slowly	100	101	103
+south*	100	102
+space	100	102
+spaced	100	102
+spaces	100	102
+spaci*	100	102
+span	100	102
+spann*	100	102
+speed*	100	103
+spiral	100	101
+sprawl*	100	102
+spring	100	103
+sprint*	100	101
+stair*	100	102
+starter*	100	103
+startup*	100	103	110
+step	100	101
+stepp*	100	101
+steps	100	101
+street*	100	102
+stretch*	100	102
+summer*	100	103
+sun	100	103
+sunday*	100	103
+sunrise*	100	103
+sunset*	100	103
+surfac*	100	102
+surround*	100	102
+swim*	100	101	111
+swivel*	100	101
+synch*	100	103
+term	100	103
+terminat*	100	103
+territor*	100	102
+thinly	100	102
+thurs	100	103
+thursday*	100	103
+time*	100	103
+timing	100	103
+tiptoe*	100	101
+town	100	102
+transfer*	100	101	110
+transport*	100	101
+traveler*	100	101	111
+trip	100	101
+tues	100	103
+tuesday*	100	103
+undersid*	100	102
+universe*	100	102
+untwist*	100	101
+updat*	100	103
+uppermost	100	102
+upstairs	100	102
+vastness	100	102
+verg*	100	102
+vertical*	100	102
+vibrate	100	101
+wall	100	102
+walls	100	102
+warehous*	100	102	110
+wave	100	101
+way	100	102
+wednesday*	100	103
+week	100	103
+week'*	100	103
+weekend*	100	103	111
+weekl*	100	103
+weeks	100	103
+west*	100	102
+widely	100	102
+width*	100	102
+winter*	100	103
+world	100	102
+year	100	103
+yearly	100	103
+years	100	103
+youth*	100	103
+zoom	100	101
+absent*	110
+academia	110
+academics	110
+academies	110
+academy	110
+advertising	110
+agencies	110
+agency	110
+agent	110
+agents	110
+applicant*	110
+applicat*	110
+assign*	110
+assistan*	110
+associated	110
+auditorium*	110
+bank*	110	113
+biz	110
+blackboard*	110
+bldg*	110
+book*	110	111
+broker*	110	113
+bureau*	110
+business*	110	113
+calculus	110
+campus*	110
+career*	110
+certif*	110
+chore*	110	112
+class	110
+classes	110
+classroom*	110
+client*	110
+collaborator*	110
+colleg*	110
+commerc*	110
+committee*	110
+companies	110
+comput*	110
+conferenc*	110
+conglom*	110
+construction*	110
+consumer*	110	113
+corp	110
+corporat*	110
+corps	110
+course*	110
+credential*	110
+cubicle*	110
+curricul*	110
+customer*	110	113
+cv*	110
+deadline*	110
+department*	110
+dept	110
+desk*	110
+develop*	110
+diplom*	110
+dissertat*	110
+dividend*	110	113
+dorm*	110	112
+dotcom	110	120	122
+downsiz*	110
+duti*	110
+duty	110
+econ*	110	113
+edit*	110
+efl	110
+elementary	110
+employ	110
+employed	110
+employment	110
+entrepreneur*	110
+errand*	110
+esl	110
+exam	110
+exams	110
+factories	110
+factory	110
+facult*	110
+fax*	110
+feedback	110
+finals	110
+financ*	110	113
+firing	110
+franchis*	110	113
+gmat	110
+gov	110
+grad	110
+grade*	110
+grading	110
+graduat*	110
+gre	110
+hardwork*	110
+headhunter*	110
+highschool*	110
+hire	110
+hires	110
+homework*	110	112
+housework	110	112
+hr	110
+inc	110
+income*	110	113
+incorp*	110
+industr*	110
+institut*	110
+instruct*	110
+inventory	110
+invest*	110	113
+job*	110
+keyboard*	110
+kinderg*	110
+labor*	110
+labour*	110
+laptop*	110
+layoff*	110
+lectur*	110
+legal	110
+legales*	110
+legalis*	110
+legalit*	110
+legaliz*	110
+legally	110
+legals	110
+librar*	110
+lsat	110
+ltd	110
+mailroom*	110
+manufact*	110
+market*	110	113
+math*	110
+mcat	110
+memo	110
+memos	110
+merger*	110
+mfg	110
+mgmt	110
+mgr	110
+midterm*	110
+ngo*	110
+nonprofit*	110
+nsfw	110	120	122
+occupa*	110
+office	110
+offices	110
+org	110
+organization*	110
+organizer*	110
+outlin*	110
+outsourc*	110
+overtime	110	113
+paper*	110
+pay*	110	113
+pc*	110
+pen	110
+pencil*	110
+pens	110
+pension*	110	113
+perform*	110
+photocop*	110
+physics	110
+portfolio*	110	113
+prereq*	110
+presentation*	110
+profession*	110
+program*	110
+project	110
+projector*	110
+projects	110
+psych	110
+psychol*	110
+publish*	110
+qualifi*	110
+quiz*	110
+recession*	110	113
+recruit*	110
+register*	110
+registra*	110
+report*	110
+requir*	110
+research*	110
+resource	110
+resources	110
+responsib*	110
+resume*	110
+retail*	110	113
+retire*	110
+retiring	110
+review*	110
+revis*	110
+rhetor*	110
+salar*	110	113
+scholar	110
+scholars	110
+scholarship*	110	113
+scholastic*	110
+school	110
+schooling	110
+schools	110
+schoolwork	110
+scien*	110
+secretar*	110
+seminar	110
+seminars	110
+servic*	110
+session*	110
+shareholder*	110	113
+sophom*	110
+stapl*	110
+start-up*	110
+stipend*	110	113
+stock	110
+stocks	110	113
+studies	110
+studio	110	112
+studios	110	112
+studious	110
+study*	110
+syllabus*	110
+tasks	110
+tax	110	113
+taxa*	110	113
+taxes	110	113
+taxing	110	113
+tenure*	110
+test	110
+tests	110
+textbook*	110
+theses	110
+thesis	110
+toefl	110
+trade*	110	113
+transcript*	110
+tutor*	110
+undergrad*	110
+underpaid	110	113
+unemploy*	110
+universit*	110
+varsit*	110
+vita	110
+vitas	110
+vocation*	110
+wage	110	113
+wages	110	113
+welfare	110
+workshop*	110
+writer*	110
+xerox*	110
+3ds	111
+actor*	111
+actress*	111
+art	111
+artist	111
+artists	111
+arts	111
+athlete*	111
+ball	111
+ballet*	111
+baseball*	111
+basketball*	111
+bath*	111	112
+beach*	111
+bicyc*	111
+bike*	111
+birdie*	111
+blackjack	111
+blockbuster*	111
+blog*	111
+blu-ray*	111
+bong	111
+bowling	111
+broadway	111
+camping	111
+cards	111
+cartoon*	111
+casino*	111	113
+cd*	111
+channel*	111
+checkers	111
+chess	111
+chillin*	111
+cinema*	111
+comic*	111
+cricket	111
+criquet	111
+croquet	111
+dancer	111
+decorat*	111
+diaries	111
+diary	111
+dispensary	111
+dnd	111
+drama*	111
+dream*	111
+drum	111
+drumm*	111
+drums	111
+dvd*	111
+dvr	111
+e-cig*	111
+ebook*	111
+ecig*	111
+film*	111
+fishing	111
+flatscreen*	111
+football*	111
+frisbee*	111
+gaming	111
+garage*	111	112
+garden*	111	112
+golf*	111
+guitar*	111
+gym*	111
+hangin*	111
+hbo	111
+hiphop	111
+hobb*	111
+hockey*	111
+holiday*	111
+hooka*	111
+horseback	111
+hotel*	111
+hulu	111
+hunting	111
+inn	111
+inns	111
+intramural*	111
+ipod*	111
+itune*	111
+jazz*	111
+karaoke	111
+keg	111
+kegs	111
+lounge*	111
+lsd	111
+magazine*	111
+mall	111
+malls	111
+marathon*	111
+marijuana*	111
+meditat*	111	114
+motel*	111
+movie*	111
+mtv*	111
+museum*	111
+nap	111
+naps	111
+netflix	111
+nintendo*	111
+novel	111
+novels	111
+oculus	111
+pinterest	111	120	122
+pitcher*	111
+playstation*	111
+podcast*	111
+poetry	111
+poker	111
+pool*	111
+ps3*	111
+ps4*	111
+psvita	111
+pub	111
+pubs	111
+recording*	111
+recreation*	111
+redbox*	111
+reddit*	111	120	122
+reggae	111
+rock	111
+rocks	111
+roller*	111
+rugby*	111
+sailing	111
+scrabble	111
+scrapbook*	111
+sculpt*	111
+shop	111	113
+shopaholic*	111	113
+shopp*	111	113
+shops	111	113
+shrooms	111
+skat*	111
+skier*	111
+skis	111
+soccer*	111
+solitaire	111
+sony	111
+spa	111
+spas	111
+spliff*	111
+sport*	111
+spotify	111
+standup	111
+stoned	111
+sunbath*	111
+symphon*	111
+techno	111
+television*	111
+tennis*	111
+theat*	111
+ticket*	111
+tivo*	111
+tix	111	120	122
+toy*	111
+triathl*	111
+tumblr	111	120	122
+tv*	111
+unwind*	111
+vacation*	111
+vape	111
+vcr*	111
+volleyb*	111
+wii*	111
+xbone*	111
+xbox*	111
+yard	111	112
+yoga	111
+youtube	111
+address	112
+apartment*	112
+backyard	112
+balcon*	112
+bed	112
+bedding	112
+bedroom*	112
+beds	112
+broom*	112
+carpet*	112
+closet*	112
+condo	112
+condominium*	112
+condos	112
+couch*	112
+curtain*	112
+den	112
+dishwash*	112
+doghouse*	112
+domestic*	112
+drape*	112
+dresser*	112
+driveway*	112
+duplex*	112
+fireplace*	112
+fridge*	112
+furniture	112
+futon*	112
+home	112
+homes	112
+house	112
+household*	112
+houses	112
+housing	112
+laundry	112
+lease*	112	113
+leasing*	112	113
+loft	112
+lofts	112
+loveseat*	112
+mailbox	112
+mattress*	112
+microwave*	112
+mop	112
+mortg*	112	113
+oven*	112
+patio*	112
+pet	112
+pets	112
+pillow*	112
+porch	112
+remodel*	112
+renovat*	112
+rent*	112	113
+residen*	112
+rug	112
+rugs	112
+shower*	112
+sofa*	112
+stove*	112
+studs	112
+sweep*	112
+tenant*	112
+toaster*	112
+vacuum*	112
+window*	112
+account*	113
+atm	113	120	122
+atms	113
+auction*	113
+audit	113
+audited	113
+auditing	113
+auditor	113
+auditors	113
+audits	113
+bargain*	113
+bill	113
+billed	113
+billing*	113
+bills	113
+bitcoin	113
+borrow*	113
+buck	113
+bucks	113
+budget*	113
+buy*	113
+cashing	113
+cent	113
+cents	113
+checkbook*	113
+chequ*	113
+coin	113
+coins	113
+compensat*	113
+cost	113
+costing	113
+costly	113
+costs	113
+coupon*	113
+currenc*	113
+debit*	113
+debt*	113
+deposit*	113
+dime	113
+dimes	113
+dinar*	113
+dinero	113
+discount*	113
+dollar*	113
+dues	113
+embezzl*	113
+equities	113
+equity	113
+euro	113
+euros	113
+exchang*	113
+expensive	113
+fee	113
+fees	113
+fortune*	113
+franc	113
+francs	113
+fund	113
+funding	113
+funds	113
+gambl*	113
+gbp	113
+inherit*	113
+insurance	113
+irs	113
+kopek*	113
+kron*	113
+lender*	113
+lira	113
+lotter*	113
+mastercard*	113
+merchant*	113
+money*	113
+nickel*	113
+pence	113
+pennies	113
+penny	113
+peso	113
+pesos	113
+price*	113
+prici*	113
+purchas*	113
+rebate*	113
+refund*	113
+reimburs*	113
+revenue*	113
+ruble*	113
+rupee*	113
+sale	113
+sales	113
+saving*	113
+seller*	113
+shilling*	113
+spender	113
+store	113
+stores	113
+thrift	113
+transact*	113
+tuition*	113
+usd	113
+venmo*	113
+visa*	113
+worth	113
+yen	113
+yuan	113
+afterlife*	114
+agnost*	114
+alla	114
+allah*	114
+altar*	114
+amen	114
+amish	114
+angel	114
+angelic*	114
+angels	114
+baptis*	114
+baptiz*	114
+bible*	114
+biblic*	114
+bishop*	114
+buddh*	114
+catholic*	114
+chapel*	114
+chaplain*	114
+christ	114
+christen*	114
+christian*	114
+clergy	114
+convent	114
+convents	114
+crucif*	114	115
+crusade*	114
+demon	114
+demonic*	114
+demons	114
+episcopal*	114
+evangel*	114
+gentile*	114
+gospel*	114
+hashanah	114
+hells	114
+hindu*	114
+imam*	114
+islam*	114
+jesuit*	114
+jesus*	114
+jew	114
+jewish*	114
+jews	114
+jihad*	114
+juda*	114
+karma	114
+kippur	114
+koran	114
+kosher	114
+krishna*	114
+krisna*	114
+lutheran*	114
+mecca	114
+mennonit*	114
+mercif*	114
+mercy	114
+methodis*	114
+ministr*	114
+missionar*	114
+mitzvah*	114
+mohamm*	114
+monast*	114
+monk*	114
+moral	114
+morality	114
+morals	114
+mormon*	114
+mosque*	114
+muhamm*	114
+mujahid*	114
+musl*	114
+nun	114
+nun's	114
+nuns	114
+orthodox*	114
+pagan*	114
+papal	114
+passover	114
+pastor*	114
+penance	114
+pentecost*	114
+pew	114
+pews	114
+piet*	114
+pilgrim*	114
+pope*	114
+preach*	114
+presbyterian*	114
+prophe*	114
+protestant*	114
+psalm*	114
+purgator*	114
+puritan*	114
+qur'an*	114
+quran*	114
+rabbis	114
+ramadan	114
+religio*	114
+rite	114	120	122
+rites	114
+ritual*	114
+rosaries	114
+rosary	114
+rosh-hashan*	114
+roshhashan*	114
+sabbath*	114
+sacrific*	114
+saint*	114
+salvation	114
+satan*	114
+scriptur*	114
+sect	114
+sectarian	114
+sects	114
+seminary	114
+shi'*	114
+shiite*	114
+shrine*	114
+sikh*	114
+sinn*	114
+soul	114
+souls	114
+spirit*	114
+sunni	114
+sunnis	114
+temple*	114
+testament*	114
+theolog*	114
+torah	114
+vatican*	114
+veil*	114
+yiddish	114
+zen	114
+zion*	114
+assass*	115
+autops*	115
+behead*	115
+burial*	115
+buried	115
+bury	115
+casket*	115
+casualt*	115
+cemet*	115
+coffin*	115
+coroner*	115
+corpse*	115
+cremat*	115
+crypt*	115
+dead	115
+death*	115
+decease*	115
+demise	115
+doa	115
+drown*	115
+dying	115
+embalm*	115
+execution*	115
+exterminat*	115
+funer*	115
+genocid*	115
+ghost*	115
+hanged	115
+hearse*	115
+holocaust*	115
+homocid*	115
+lethal*	115
+lynch*	115
+manslaughter*	115
+massacre*	115
+mausoleum*	115
+memoria*	115
+morgue*	115
+mortal*	115
+mortician*	115
+obit*	115
+od	115
+oded	115
+pallbearer*	115
+plague*	115
+reaper*	115
+slaughter*	115
+suicid*	115
+tomb	115
+tombs	115
+urn*	115
+zombie*	115
+(;	120	122
+/:	120	122
+4ev*	120	122
+:/	120	122
+;)	120	122
+af	120	121	122
+afk	120	122
+ah	120	123	124
+ahh*	120	122	124
+aight	120	122	123
+app	120	122
+apps	120	122
+arsehole*	120	121
+asap	120	122
+asf	120	121	122
+asswipe	120	121
+aw	120	122	123
+aww*	120	122
+b	120	122
+b4	120	122
+badass*	120	121
+bai	120	122
+bamf	120	121	122
+bday	120	122
+biatch*	120	121	122
+biotch*	120	121	122
+blah	120	125
+boo	120	122
+brb	120	122
+bs	120	121	122
+btw	120	122
+bullshit	120	121
+d8*	120	122
+da	120	122
+dammit	120	121
+dang	120	121
+dankness	120	122
+darn	120	121
+dat	120	122
+dickhead*	120	121
+dickhole*	120	121
+dickish*	120	121
+dickwad	120	121
+dipshit*	120	121
+dis	120	122
+dope*	120	122
+douche*	120	121
+duh	120	123
+dumbfuck*	120	121
+effin	120	121
+effin'	120	121
+effing	120	121
+eh	120	122
+em	120	122
+er	120	124
+ew	120	122
+eww*	120	122
+fag	120	121
+faggot*	120	121
+faggy	120	121
+fml	120	121	122
+fomo	120	122
+friggin	120	121
+friggin'	120	121
+frigging	120	121
+ftw	120	122
+fu	120	121	122
+fyi	120
+gg	120	122
+gn	120	122
+hashtag	120	122
+heck	120	121
+hella	120	121	122
+heyy*	120	122
+hii*	120	122
+hm*	120	122	124
+hoe	120	121
+hoebag	120	121
+hoes	120	121
+holla	120	122
+horseshit*	120	121
+ht	120	122
+huh	120	122	124
+j/k	120	122
+jackass	120	121
+jeez	120	121
+jk	120	122
+juss	120	122
+k	120	122	123
+kk	120	122	123
+l8*	120	122
+meh	120	122
+mf	120	121	122
+mf'*	120	121	122
+mfs	120	121	122
+mhm*	120	122	123
+mm	120	122	124
+mmh*	120	123
+mmk*	120	122	123
+mmm*	120	124
+mofo*	120	121	122
+motherfucke*	120	121
+muah	120	122
+mwah	120	122
+nbd	120	122
+nigga*	120	121
+nigger*	120	121
+nm	120	122
+nvm	120	122
+o	120	122
+oh	120	124
+ohh*	120	124
+ohwell	120	125
+omfg	120	121	122
+omg	120	122
+ooo*	120	122
+op	120	122
+op's	120	122
+outta	120	122
+pls	120	122
+plz	120	122
+prob	120	122
+probs	120	122
+r	120	122
+retard*	120	121
+rp	120	122
+rr*	120	125
+skank*	120	121
+sonofa*	120	121
+sp	120	122
+stfu	120	121	122
+tbh	120	122
+tf	120	122
+tha	120	122
+tldr	120	122
+uh	120	124
+uh-hu*	120	123
+uhhu*	120	123
+um	120	124
+umm*	120	124
+w/*	120	122
+whoa	120	125
+whoo	120	123
+whooo*	120	123
+wif	120	122
+woah	120	125
+woo	120	123
+woohoo*	120	123
+wooo*	120	123
+woot	120	122
+wtf	120	121	122
+y'kn*	120	125
+yaas*	120	122	123
+yah	120	122	123
+yakno*	120	125
+yass*	120	123
+yea	120	122	123
+yeah	120	123
+yep*	120	122	123
+yes	120	123
+yess*	120	122
+ykn*	120	125
+yo	120	122
+youknow	120	125
+yu	120	122
+yup	120	122	123
+zz*	120	124
